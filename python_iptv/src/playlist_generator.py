@@ -80,7 +80,9 @@ EPG_MAP = {
     "RAI STORIA": "Rai.Storia..5054.it",
     "RAI SCUOLA": "RaiScuola.it",
     "RAI NEWS 24": "Rai.News.24..508.it",
+    "RAI NEWS": "Rai.News.24..508.it",
     "RAI SPORT": "RAI.Sport...227.it",
+    "RAI SPORT HD": "RAI.Sport...227.it",
     "CANALE 5": "Canale.5.it",
     "ITALIA 1": "Italia.1.it",
     "ITALIA 2": "Italia.2.it",
@@ -149,11 +151,11 @@ EPG_MAP = {
     "DEEJAY TV": "DeejayTV.it",
     "DISCOVERY CH +1": "Discovery.+1.it",
     "DISCOVERY CHANNEL": "Discovery.Channel.it",
-    "DISCOVERY SCIENCE": "Discovery.Science.it",
-    "DMAX HD": "DMAXHD.it",
+    "DISCOVERY SCIENCE": "DiscoveryScience.it",
+    "DMAX HD": "DMAX.it",
     "DISCOVERY CHANNEL HD": "Discovery.Channel.it",
     "DISCOVERY HD": "Discovery.Channel.it",
-    "DISCOVERY SCIENCE HD": "Discovery.Science.it",
+    "DISCOVERY SCIENCE HD": "DiscoveryScience.it",
     "DONNATV": "DonnaTv.it",
     "EQUTV": "Equtv.it",
     "ER24 - EMILIA ROMAGNA 24": "EmiliaRomagna24.it",
@@ -197,7 +199,7 @@ EPG_MAP = {
     "NAT GEO WILD +1": "NatGeoWild+1.it",
     "NATIONAL GEOGRAPHIC WILD": "NatGeoWild.it",
     "NATIONAL GEOGRAPHIC +1": "NationalGeo+1.it",
-    "NHK WORLD TV": "NHKWorldTV.it",
+    "NATIONAL GEOGRAPHIC": "NationalGeo+1.it",
     "NICK JR+1": "NickJr+1.it",
     "NICK JUNIOR": "NickJr.it",
     "NICKELODEON + 1": "Nickelodeon+1.it",
@@ -783,4 +785,4 @@ if __name__ == "__main__":
         ]
     )
     gen = PlaylistGenerator()
-    gen.generate_m3u8("test_playlist.m3u8", groups=["Italy", "Switzerland", "Vavoo"])
+    gen.generate_m3u8("playlist.m3u8", groups=["Italy", "Switzerland", "Vavoo"])
