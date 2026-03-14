@@ -407,20 +407,20 @@ class EPGManager:
             enabled=True,
             country_code="nl"
         ),
-        EPGSource(
-            name="Belgium",
-            url="https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="be"
-        ),
-        EPGSource(
-            name="Austria",
-            url="https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="at"
-        ),
+        # EPGSource(
+            # name="Belgium",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="be"
+        # ),
+        # EPGSource(
+            # name="Austria",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="at"
+        # ),
         EPGSource(
             name="Switzerland",
             url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz",
@@ -463,48 +463,48 @@ class EPGManager:
             enabled=True,
             country_code="hr"
         ),
-        EPGSource(
-            name="Serbia",
-            url="https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="rs"
-        ),
-        EPGSource(
-            name="Bosnia",
-            url="https://epgshare01.online/epgshare01/epg_ripper_BA1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="ba"
-        ),
-        EPGSource(
-            name="Czech Republic",
-            url="https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="cz"
-        ),
-        EPGSource(
-            name="Slovakia",
-            url="https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="sk"
-        ),
-        EPGSource(
-            name="Hungary",
-            url="https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="hu"
-        ),
-        EPGSource(
-            name="Greece",
-            url="https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="gr"
-        ),
+        # EPGSource(
+            # name="Serbia",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="rs"
+        # ),
+        # EPGSource(
+            # name="Bosnia",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_BA1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="ba"
+        # ),
+        # EPGSource(
+            # name="Czech Republic",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="cz"
+        # ),
+        # EPGSource(
+            # name="Slovakia",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="sk"
+        # ),
+        # EPGSource(
+            # name="Hungary",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="hu"
+        # ),
+        # EPGSource(
+            # name="Greece",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="gr"
+        # ),
         EPGSource(
             name="Turkey",
             url="https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz",
@@ -512,34 +512,34 @@ class EPGManager:
             enabled=True,
             country_code="tr"
         ),
-        EPGSource(
-            name="Denmark",
-            url="https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="dk"
-        ),
-        EPGSource(
-            name="Sweden",
-            url="https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="se"
-        ),
-        EPGSource(
-            name="Norway",
-            url="https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="no"
-        ),
-        EPGSource(
-            name="Finland",
-            url="https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="fi"
-        ),
+        # EPGSource(
+            # name="Denmark",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="dk"
+        # ),
+        # EPGSource(
+            # name="Sweden",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="se"
+        # ),
+        # EPGSource(
+            # name="Norway",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="no"
+        # ),
+        # EPGSource(
+            # name="Finland",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="fi"
+        # ),
         EPGSource(
             name="Russia",
             url="https://epgshare01.online/epgshare01/epg_ripper_viva-russia.ru.xml.gz",
@@ -547,55 +547,55 @@ class EPGManager:
             enabled=True,
             country_code="ru"
         ),
-        EPGSource(
-            name="USA",
-            url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="us"
-        ),
-        EPGSource(
-            name="Canada",
-            url="https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="ca"
-        ),
-        EPGSource(
-            name="Australia",
-            url="https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="au"
-        ),
-        EPGSource(
-            name="Japan",
-            url="https://epgshare01.online/epgshare01/epg_ripper_JP1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="jp"
-        ),
-        EPGSource(
-            name="India",
-            url="https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="in"
-        ),
-        EPGSource(
-            name="Brazil",
-            url="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="br"
-        ),
-        EPGSource(
-            name="Mexico",
-            url="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz",
-            priority=1,
-            enabled=True,
-            country_code="mx"
-        ),
+        # EPGSource(
+            # name="USA",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="us"
+        # ),
+        # EPGSource(
+            # name="Canada",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="ca"
+        # ),
+        # EPGSource(
+            # name="Australia",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="au"
+        # ),
+        # EPGSource(
+            # name="Japan",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_JP1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="jp"
+        # ),
+        # EPGSource(
+            # name="India",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="in"
+        # ),
+        # EPGSource(
+            # name="Brazil",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="br"
+        # ),
+        # EPGSource(
+            # name="Mexico",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz",
+            # priority=1,
+            # enabled=False,
+            # country_code="mx"
+        # ),
     ]
 
     def __init__(self, cache_dir: Optional[Path] = None, cache_ttl_hours: int = 12,
