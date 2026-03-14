@@ -11,6 +11,7 @@ and outputs a single merged epg.xml.
 import io
 import logging
 import xml.etree.ElementTree as ET
+from os.path import join
 from typing import Optional, Dict, Tuple  # , Set
 from src.playlist_generator import EPG_MAP
 from src.epg_manager import EPGDownloader, EPGCache, EPGSource
@@ -393,7 +394,6 @@ def merge_epg(output_path: str) -> bool:
 
 
 def generate_country_files(output_dir: str = ".") -> bool:
-    """Genera un file EPG per ogni paese (sorgente) nella lista EPG_SOURCES."""
     downloader = EPGDownloader()
     cache = EPGCache()
     success_count = 0
@@ -409,16 +409,15 @@ def generate_country_files(output_dir: str = ".") -> bool:
             continue
 
         try:
-            tree = ET.parse(io.BytesIO(xml_content))
-            root = tree.getroot()
+            # tree = ET.parse(io.BytesIO(xml_content))
+            # root = tree.getroot()
 
             country_code = source.country_code or source.name.lower().replace(" ", "_")
             filename = f"epg_{country_code}.xml"
-            filepath = os.path.join(output_dir, filename)
+            filepath = join(output_dir, filename)
 
-            # Salva il file
             with open(filepath, "wb") as f:
-                f.write(xml_content)  # Se vuoi filtrare, devi ricostruire l'XML
+                f.write(xml_content)
 
             logging.info(f"Saved {filepath}")
             success_count += 1
