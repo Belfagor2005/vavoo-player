@@ -12,19 +12,18 @@ import io
 import logging
 import xml.etree.ElementTree as ET
 from typing import Optional, Dict, Set, Tuple
-
-from src.epg_manager import EPGSource, EPGDownloader, EPGCache
+from src.epg_manager import EPGSource, EPGDownloader, EPGCache, DEFAULT_SOURCES
 from src.playlist_generator import EPG_MAP
 
 
 # All 4 sources as separate entries for maximum coverage
-EPG_SOURCES = [
-    EPGSource(name="IT_primary", url="https://iptv-epg.org/files/epg-it.xml.gz", priority=0),
-    EPGSource(name="IT_backup", url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", priority=1),
-    EPGSource(name="CH_primary", url="https://iptv-epg.org/files/epg-ch.xml.gz", priority=2),
-    EPGSource(name="CH_backup", url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz", priority=3),
-]
-
+# EPG_SOURCES = [
+    # EPGSource(name="IT_primary", url="https://iptv-epg.org/files/epg-it.xml.gz", priority=0),
+    # EPGSource(name="IT_backup", url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", priority=1),
+    # EPGSource(name="CH_primary", url="https://iptv-epg.org/files/epg-ch.xml.gz", priority=2),
+    # EPGSource(name="CH_backup", url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz", priority=3),
+# ]
+EPG_SOURCES = [src for src in DEFAULT_SOURCES if src.enabled]
 # Channel IDs actually used in the playlist
 PLAYLIST_CHANNEL_IDS = set(EPG_MAP.values())
 # Also include RSI IDs as they appear in CH EPG sources (different from .it suffixes)
