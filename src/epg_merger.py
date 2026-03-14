@@ -13,7 +13,7 @@ import logging
 import xml.etree.ElementTree as ET
 from typing import Optional, Dict, Tuple  # , Set
 from src.playlist_generator import EPG_MAP
-from src.epg_manager import EPGManager, EPGSource, EPGDownloader, EPGCache
+from src.epg_manager import EPGDownloader, EPGCache
 
 """
 EPG_SOURCES = [
@@ -23,7 +23,7 @@ EPG_SOURCES = [
     EPGSource(name="CH_backup", url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz", priority=3),
 ]
 """
-DEFAULT_SOURCES = [
+EPG_SOURCES = [
     EPGSource(
         name="Albania",
         url="https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz",
@@ -129,7 +129,7 @@ DEFAULT_SOURCES = [
         priority=1,
         enabled=True,
         country_code="gb"
-    ),
+    )
     """
     # EPGSource(
         # name="Australia",

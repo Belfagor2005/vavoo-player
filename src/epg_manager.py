@@ -468,7 +468,7 @@ class EPGManager:
             priority=1,
             enabled=True,
             country_code="gb"
-        ),
+        )
         """
         # EPGSource(
             # name="Australia",
