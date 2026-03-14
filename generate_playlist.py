@@ -5,14 +5,13 @@ import argparse
 
 # Add the root directory to sys.path to allow imports from src
 sys.path.append(os.path.join(os.path.dirname(__file__)))
-from src.playlist_generator import PlaylistGenerator
 
+from src.playlist_generator import PlaylistGenerator
 
 def main():
     parser = argparse.ArgumentParser(description="Generate Vavoo IPTV Playlist")
     parser.add_argument("--output", default="playlist.m3u8", help="Output path for the playlist")
-    # L'argomento --epg-output non serve più, lo lasciamo per compatibilità ma non lo usiamo
-    parser.add_argument("--epg-output", default=None, help="(Deprecated) Ignored")
+    parser.add_argument("--epg-output", default=None, help="Output path for merged EPG (e.g. epg.xml)")
     parser.add_argument("--groups", nargs="+", default=["Italy"], help="Groups to include")
     
     args = parser.parse_args()
@@ -35,15 +34,15 @@ def main():
         logging.error("Failed to generate playlist.")
         success = False
 
-    # Generate EPG files per country (instead of a single merged file)
-    logging.info("Starting EPG generation for each country...")
-    from src.epg_merger import generate_country_files
-    if not generate_country_files("."):
-        logging.error("Failed to generate EPG files.")
-        success = False
+    # Generate merged EPG
+    if args.epg_output:
+        logging.info(f"Starting EPG merge...")
+        from src.epg_merger import merge_epg
+        if not merge_epg(args.epg_output):
+            logging.error("Failed to merge EPG.")
+            success = False
 
     sys.exit(0 if success else 1)
-
 
 if __name__ == "__main__":
     main()
