@@ -1,5 +1,9 @@
+"""
+Playlist Manager
+
+"""
 import requests
-import json
+# import json
 import time
 import os
 import sys
@@ -7,7 +11,7 @@ import logging
 import urllib3
 # Add parent dir to sys.path to resolve data_manager if needed
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from src.data_manager import DataManager
+# from src.data_manager import DataManager
 
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -91,9 +95,9 @@ BOUQUETS = {
              "BOOMERANG", "CARTOON NETWORK", "NICK JR", "NICKELODEON", "NICK", "BABY TV",
              "IUNIOR TV", "DISNEY", "JIMJAM", "TEEN NICK"],
     "Documentary": ["SKY DOCUMENTARIES", "SKY NATURE", "GEO", "DISCOVERY", "HISTORY",
-                     "NATIONAL GEOGRAPHIC", "NAT GEO", "CRIME INVESTIGATION", "CRIME+ INV", 
-                     "ANIMAL PLANET", "PESCA", "CACCIA", "MARCOPOLO", "FOCUS", "SCIENCE", "EXPLORER HD", "BLAZE"],
-    "Music": ["VH1", "MTV", "RADIO ITALIA", "RTL 102.5", "RADIO CAPITAL", "RADIO FRECCIA", "RDS", 
+                    "NATIONAL GEOGRAPHIC", "NAT GEO", "CRIME INVESTIGATION", "CRIME+ INV",
+                    "ANIMAL PLANET", "PESCA", "CACCIA", "MARCOPOLO", "FOCUS", "SCIENCE", "EXPLORER HD", "BLAZE"],
+    "Music": ["VH1", "MTV", "RADIO ITALIA", "RTL 102.5", "RADIO CAPITAL", "RADIO FRECCIA", "RDS",
               "RADIONORBA", "DEEJAY", "RADIO 105", "RADIO MONTE CARLO", "R101", "VIRGIN",
               "KISS KISS", "M2O", "CLASSICA", "RMC", "ZETA", "BATTITI"],
     "News": ["SKY TG24", "TGCOM24", "RAI NEWS", "EURONEWS", "BBC NEWS", "BBC WORLD", "CNN", "AL JAZEERA",
@@ -401,6 +405,7 @@ EPG_MAP = {
     "SPORTITALIA 12": "Sportitalia12.it",
 }
 
+
 class PlaylistGenerator:
     """
     Handles fetching channels from Vavoo API and generating M3U8 playlists.
@@ -410,6 +415,7 @@ class PlaylistGenerator:
             "sig": None,
             "timestamp": 0
         }
+        from src.data_manager import DataManager
         self.dm = DataManager()
         self._logos_cache = None  # Cache for logo file lookup
 
@@ -422,7 +428,7 @@ class PlaylistGenerator:
             "content-type": "application/json; charset=utf-8",
             "accept-encoding": "gzip"
         }
-        
+
         data = {
             "token": "ldCvE092e7gER0rVIajfsXIvRhwlrAzP6_1oEJ4q6HH89QHt24v6NNL_jQJO219hiLOXF2hqEfsUuEWitEIGN4EaHHEHb7Cd7gojc5SQYRFzU3XWo_kMeryAUbcwWnQrnf0-",
             "reason": "app-blur",
@@ -476,10 +482,10 @@ class PlaylistGenerator:
     def fetch_all_channels(self, target_groups=None):
         """
         Fetches channels from the API.
-        
+
         Args:
             target_groups (list): List of groups to fetch. If None, uses default GROUPS.
-            
+
         Returns:
             list: List of channel dictionaries.
         """
@@ -493,12 +499,12 @@ class PlaylistGenerator:
 
         all_channels = []
         seen_urls = set()
-        
+
         for group in target_groups:
             logging.info(f"Fetching group: {group}...")
             cursor = 0
             group_items = 0
-            
+
             while True:
                 data = {
                     "language": "en",
@@ -512,25 +518,25 @@ class PlaylistGenerator:
                     "cursor": cursor,
                     "clientVersion": "3.0.2"
                 }
-                
+
                 headers = {
                     "user-agent": USER_AGENT,
                     "accept": "application/json",
                     "content-type": "application/json; charset=utf-8",
                     "mediahubmx-signature": sig
                 }
-                
+
                 try:
                     # Disable SSL verification
                     r = _http_session.post(VAOO_URL, json=data, headers=headers, timeout=15, verify=False)
 
                     r.raise_for_status()
                     res = r.json()
-                    
+
                     items = res.get("items", [])
                     if not items:
                         break
-                        
+
                     for item in items:
                         url = item.get("url")
                         name = item.get("name")
@@ -545,15 +551,15 @@ class PlaylistGenerator:
                             all_channels.append(clean_item)
                             seen_urls.add(seen_key)
                             group_items += 1
-                    
+
                     cursor = res.get("nextCursor")
                     if cursor is None:
                         break
-                        
+
                 except Exception as e:
                     logging.error(f"Error fetching {group}: {e}")
                     break
-            
+
             logging.info(f" > Found {group_items} channels in {group}")
 
         # Always search for RSI specifically to ensure we catch all variants and groups
@@ -571,11 +577,11 @@ class PlaylistGenerator:
         target_names = ["RSI LA 1", "RSI LA 2", "RSI LA1", "RSI LA2"]
         found = []
         # Germany and Vavoo are most likely candidates for Swiss content
-        search_groups = ["Italy", "Germany", "Vavoo", "Switzerland", "Swiss", "Other"] 
+        search_groups = ["Italy", "Germany", "Vavoo", "Switzerland", "Swiss", "Other"]
         search_queries = ["RSI LA", "RSI LA 1", "RSI LA 2", "RSI", "LA 1", "LA 2"]
-        
+
         logging.info("Attempting targeted search for RSI channels...")
-        
+
         seen_urls_rsi = set()
         for group in search_groups:
             for query in search_queries:
@@ -587,20 +593,20 @@ class PlaylistGenerator:
                         "catalogId": "iptv",
                         "id": "iptv",
                         "adult": False,
-                        "search": query, 
+                        "search": query,
                         "sort": "name",
                         "filter": {"group": group},
                         "cursor": cursor,
                         "clientVersion": "3.0.2"
                     }
-                    
+
                     headers = {
                         "user-agent": USER_AGENT,
                         "accept": "application/json",
                         "content-type": "application/json; charset=utf-8",
                         "mediahubmx-signature": sig
                     }
-                    
+
                     try:
                         r = _http_session.post(VAOO_URL, json=data, headers=headers, timeout=12, verify=False)
                         if r.status_code == 200:
@@ -608,23 +614,23 @@ class PlaylistGenerator:
                             items = res.get("items", [])
                             if not items:
                                 break
-                            
+
                             for item in items:
                                 name = item.get("name", "")
                                 url = item.get("url")
-                                
+
                                 if url and url not in seen_urls_rsi:
                                     clean_name_up = name.upper()
                                     if any(tn.upper() in clean_name_up for tn in target_names):
                                         found.append({
                                             "name": name,
                                             "url": url,
-                                            "group": "Switzerland", 
+                                            "group": "Switzerland",
                                             "logo": item.get("logo"),
-                                            "priority": 100 
+                                            "priority": 100
                                         })
-                                        seen_urls_rsi.add(url) # We still deduplicate URLs locally within this search
-                            
+                                        seen_urls_rsi.add(url)  # We still deduplicate URLs locally within this search
+
                             cursor = res.get("nextCursor")
                             if cursor is None:
                                 break
@@ -632,10 +638,8 @@ class PlaylistGenerator:
                             break
                     except Exception:
                         break
-                
+
         return found
-
-
 
     def _build_logos_cache(self, logos_dir):
         """Pre-build a normalized logo filename cache for O(1) lookups."""
@@ -648,15 +652,16 @@ class PlaylistGenerator:
 
     def _normalize_name(self, name):
         import re
-        if not name: return ""
+        if not name:
+            return ""
         n = name.upper()
         n = re.sub(r'\[.*\]', '', n)
         n = re.sub(r'\(.*\)', '', n)
         n = re.sub(r'\s+(HD|FHD|SD|4K|ITA|ITALIA|BACKUP|TIMVISION|PLUS)$', '', n)
-        
+
         # Handle Vavoo specific suffixes
         if not n.startswith("HISTORY"):
-            n = re.sub(r'\s+\.[A-Z0-9]{1,3}$', '', n) # Remove " .c", " .s" (Upper because n is upper)
+            n = re.sub(r'\s+\.[A-Z0-9]{1,3}$', '', n)  # Remove " .c", " .s" (Upper because n is upper)
         n = re.sub(r'\s+\+$', '', n)
         n = re.sub(r'[^A-Z0-9 ]', '', n)
         n = re.sub(r'\s+', ' ', n)
@@ -676,7 +681,7 @@ class PlaylistGenerator:
         # Exact match logic for short names to avoid partial overlap issues
         if norm_name in TIVUSAT_ORDER:
             return TIVUSAT_ORDER[norm_name]
-        
+
         # Substring match if not exact
         for k, v in TIVUSAT_ORDER.items():
             if k in norm_name:
@@ -686,7 +691,7 @@ class PlaylistGenerator:
     def generate_m3u8(self, output_path, groups=None, is_xc=False):
         """
         Generates an M3U8 playlist file with sorting, categorization, and local logos.
-        
+
         Args:
             output_path (str): Path to save the playlist.
             groups (list): Groups to include.
@@ -702,18 +707,18 @@ class PlaylistGenerator:
 
         channels = self.fetch_all_channels(groups)
         logging.info(f"DEBUG: fetch_all_channels returned {len(channels)} items.")
-        
+
         if not channels:
             logging.warning("No channels found to write.")
             return False
 
         # Process channels
         processed_channels = []
-        logos_dir = os.path.join(os.path.dirname(__file__), "..", "..", "logos") # Assuming script is in python_iptv/src
-        
+        logos_dir = os.path.join(os.path.dirname(__file__), "..", "..", "logos")  # Assuming script is in python_iptv/src
+
         # Verify logos dir path, fallback to current dir/logos if not found
         if not os.path.exists(logos_dir):
-             logos_dir = os.path.join(os.path.dirname(__file__), "logos")
+            logos_dir = os.path.join(os.path.dirname(__file__), "logos")
 
         # Load EPGs to populate names
         logging.info("Loading EPG data for name resolution...")
@@ -721,7 +726,7 @@ class PlaylistGenerator:
 
         for ch in channels:
             norm_name = self._normalize_name(ch['name'])
-            
+
             # BLACKLIST
             if "RAI ITALIA" in norm_name:
                 continue
@@ -731,7 +736,7 @@ class PlaylistGenerator:
                 continue
             if "SKY SPORT FOOTBALL" in norm_name:
                 continue
-            
+
             # RENAME
             if norm_name == "RAI":
                 # Special case for generic "RAI" which is actually RAI 4K on Vavoo
@@ -799,18 +804,21 @@ class PlaylistGenerator:
                 norm_name = "HISTORY"
             elif norm_name == "HISTORY CHANNEL S" or norm_name == "HISTORY  CHANNEL S":
                 norm_name = "HISTORY"
-            
+
             categories = self._get_categories(norm_name)
             priority = self._get_priority(norm_name)
-            
+
             if priority == 9999:
-                 if "SKY" in norm_name: priority = 200
-                 elif "DAZN" in norm_name: priority = 210
-                 elif "PRIMA" in norm_name: priority = 300
-            
+                if "SKY" in norm_name:
+                    priority = 200
+                elif "DAZN" in norm_name:
+                    priority = 210
+                elif "PRIMA" in norm_name:
+                    priority = 300
+
             # Resolve EPG ID and Logo
             epg_id = "" if ch.get('no_epg') else EPG_MAP.get(norm_name, "")
-            
+
             # Resolve Clean Name from EPG
             clean_display_name = norm_name
             if norm_name == "HISTORY":
@@ -821,28 +829,29 @@ class PlaylistGenerator:
                     clean_display_name = epg_name
 
             tvg_id = epg_id if epg_id else norm_name
-            if ch.get('no_epg'): tvg_id = ""
-            
+            if ch.get('no_epg'):
+                tvg_id = ""
+
             tvg_name = tvg_id if tvg_id else clean_display_name
             if ch.get('no_epg'):
                 tvg_name = clean_display_name
                 tvg_id = ""
-            
+
             # Check local logo (using cached lookup)
-            logo_path = ch['logo'] # Default to remote
+            logo_path = ch['logo']  # Default to remote
             if ch.get('final_logo_override'):
                 logo_path = ch['final_logo_override'].replace("logos/", "https://raw.githubusercontent.com/mich-de/vavoo-player/master/logos/")
             elif epg_id:
                 # Build logos cache on first use
                 if self._logos_cache is None:
                     self._logos_cache = self._build_logos_cache(logos_dir)
-                
+
                 target_fname = f"{epg_id}.png".lower()
                 matched_file = self._logos_cache.get(target_fname)
 
                 if matched_file:
                     logo_path = f"https://raw.githubusercontent.com/mich-de/vavoo-player/master/logos/{matched_file}"
-            
+
             # Duplicate channel into each matching group
             for category in categories:
                 ch_copy = ch.copy()
@@ -867,18 +876,19 @@ class PlaylistGenerator:
             with open(output_path, "w", encoding="utf-8") as f:
                 epg_url = "https://raw.githubusercontent.com/mich-de/vavoo-player/master/epg.xml"
                 f.write(f'#EXTM3U x-tvg-url="{epg_url}"\n')
-                
+
                 for ch in processed_channels:
                     f.write(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
                     header = f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{ch["clean_name"]}" tvg-logo="{ch["final_logo"]}" channel="{ch["tvg_id"]}" group-title="{ch["group"]}",{ch["clean_name"]}'
                     f.write(f"{header}\n")
                     f.write(f"{ch['url']}\n")
-                    
+
             logging.info("Playlist generated successfully.")
             return True
         except Exception as e:
             logging.error(f"Error writing playlist: {e}")
             return False
+
 
 if __name__ == "__main__":
     # Test run

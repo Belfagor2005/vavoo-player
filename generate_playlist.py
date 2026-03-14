@@ -5,8 +5,8 @@ import argparse
 
 # Add the root directory to sys.path to allow imports from src
 sys.path.append(os.path.join(os.path.dirname(__file__)))
-
 from src.playlist_generator import PlaylistGenerator
+
 
 def main():
     parser = argparse.ArgumentParser(description="Generate Vavoo IPTV Playlist")
@@ -36,13 +36,14 @@ def main():
 
     # Generate merged EPG
     if args.epg_output:
-        logging.info(f"Starting EPG merge...")
+        logging.info("Starting EPG merge...")
         from src.epg_merger import merge_epg
         if not merge_epg(args.epg_output):
             logging.error("Failed to merge EPG.")
             success = False
 
     sys.exit(0 if success else 1)
+
 
 if __name__ == "__main__":
     main()

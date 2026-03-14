@@ -37,6 +37,7 @@ class EPGSource:
     priority: int = 0
     country_code: str = ""
 
+
 @dataclass
 class ChannelInfo:
     """EPG channel information."""
@@ -44,6 +45,7 @@ class ChannelInfo:
     display_name: str
     icon: Optional[str] = None
     normalized_name: str = ""
+    country: str = ""
 
 
 @dataclass
@@ -252,9 +254,12 @@ class EPGParser:
             except ValueError:
                 return None
 
-    def parse(self, xml_content: bytes, source_name: str = "",
+    def parse(self, xml_content: bytes, source_name: str = "", country_code: str = None,
               filter_channels: Optional[Set[str]] = None) -> Tuple[Dict[str, ChannelInfo], Dict[str, List[Program]]]:
         """Parse XMLTV content efficiently.
+
+        Args:
+            country_code: Codice paese da associare ai canali di questa fonte.
 
         Returns:
             Tuple of (channels_dict, programs_dict)
@@ -296,7 +301,8 @@ class EPGParser:
                         id=channel_id,
                         display_name=display_name,
                         icon=icon,
-                        normalized_name=self.normalize_name(display_name)
+                        normalized_name=self.normalize_name(display_name),
+                        country=country_code or ""
                     )
 
                 elif elem.tag == 'programme':
@@ -357,245 +363,247 @@ class EPGManager:
     """Main EPG management class combining all components."""
 
     DEFAULT_SOURCES = [
-            EPGSource(
-                name="Albania",
-                url="https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="al"
-            ),
-            EPGSource(
-                name="Bulgaria",
-                url="https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="bg"
-            ),
-            EPGSource(
-                name="Croatia",
-                url="https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="hr"
-            ),
-            EPGSource(
-                name="France",
-                url="https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="fr"
-            ),
-            EPGSource(
-                name="Germany",
-                url="https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="de"
-            ),
-            EPGSource(
-                name="Italy",
-                url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
-                backup_url="https://iptv-epg.org/files/epg-it.xml.gz",
-                priority=0,
-                enabled=True,
-                country_code="it"
-            ),
-            EPGSource(
-                name="Netherlands",
-                url="https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="nl"
-            ),
-            EPGSource(
-                name="Poland",
-                url="https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="pl"
-            ),
-            EPGSource(
-                name="Portugal",
-                url="https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="pt"
-            ),
-            EPGSource(
-                name="Romania",
-                url="https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="ro"
-            ),
-            EPGSource(
-                name="Russia",
-                url="https://epgshare01.online/epgshare01/epg_ripper_viva-russia.ru.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="ru"
-            ),
-            EPGSource(
-                name="Spain",
-                url="https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="es"
-            ),
-            EPGSource(
-                name="Switzerland",
-                url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="ch"
-            ),
-            EPGSource(
-                name="Turkey",
-                url="https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="tr"
-            ),
-            EPGSource(
-                name="United Kingdom",
-                url="https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
-                priority=1,
-                enabled=True,
-                country_code="gb"
-            ),
-            # EPGSource(
-                # name="Australia",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="au"
-            # ),
-            # EPGSource(
-                # name="Austria",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="at"
-            # ),
-            # EPGSource(
-                # name="Belgium",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="be"
-            # ),
-            # EPGSource(
-                # name="Bosnia",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_BA1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="ba"
-            # ),
-            # EPGSource(
-                # name="Brazil",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="br"
-            # ),
-            # EPGSource(
-                # name="Canada",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="ca"
-            # ),
-            # EPGSource(
-                # name="Czech Republic",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="cz"
-            # ),
-            # EPGSource(
-                # name="Denmark",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="dk"
-            # ),
-            # EPGSource(
-                # name="Finland",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="fi"
-            # ),
-            # EPGSource(
-                # name="Greece",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="gr"
-            # ),
-            # EPGSource(
-                # name="Hungary",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="hu"
-            # ),
-            # EPGSource(
-                # name="India",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="in"
-            # ),
-            # EPGSource(
-                # name="Japan",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_JP1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="jp"
-            # ),
-            # EPGSource(
-                # name="Mexico",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="mx"
-            # ),
-            # EPGSource(
-                # name="Norway",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="no"
-            # ),
-            # EPGSource(
-                # name="Serbia",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="rs"
-            # ),
-            # EPGSource(
-                # name="Slovakia",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="sk"
-            # ),
-            # EPGSource(
-                # name="Sweden",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="se"
-            # ),
-            # EPGSource(
-                # name="USA",
-                # url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
-                # priority=1,
-                # enabled=True,
-                # country_code="us"
-            # ),
+        EPGSource(
+            name="Albania",
+            url="https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="al"
+        ),
+        EPGSource(
+            name="Bulgaria",
+            url="https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="bg"
+        ),
+        EPGSource(
+            name="Croatia",
+            url="https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="hr"
+        ),
+        EPGSource(
+            name="France",
+            url="https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="fr"
+        ),
+        EPGSource(
+            name="Germany",
+            url="https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="de"
+        ),
+        EPGSource(
+            name="Italy",
+            url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
+            backup_url="https://iptv-epg.org/files/epg-it.xml.gz",
+            priority=0,
+            enabled=True,
+            country_code="it"
+        ),
+        EPGSource(
+            name="Netherlands",
+            url="https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="nl"
+        ),
+        EPGSource(
+            name="Poland",
+            url="https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="pl"
+        ),
+        EPGSource(
+            name="Portugal",
+            url="https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="pt"
+        ),
+        EPGSource(
+            name="Romania",
+            url="https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="ro"
+        ),
+        EPGSource(
+            name="Russia",
+            url="https://epgshare01.online/epgshare01/epg_ripper_viva-russia.ru.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="ru"
+        ),
+        EPGSource(
+            name="Spain",
+            url="https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="es"
+        ),
+        EPGSource(
+            name="Switzerland",
+            url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="ch"
+        ),
+        EPGSource(
+            name="Turkey",
+            url="https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="tr"
+        ),
+        EPGSource(
+            name="United Kingdom",
+            url="https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
+            priority=1,
+            enabled=True,
+            country_code="gb"
+        ),
+        """
+        # EPGSource(
+            # name="Australia",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="au"
+        # ),
+        # EPGSource(
+            # name="Austria",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="at"
+        # ),
+        # EPGSource(
+            # name="Belgium",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="be"
+        # ),
+        # EPGSource(
+            # name="Bosnia",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_BA1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="ba"
+        # ),
+        # EPGSource(
+            # name="Brazil",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="br"
+        # ),
+        # EPGSource(
+            # name="Canada",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="ca"
+        # ),
+        # EPGSource(
+            # name="Czech Republic",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="cz"
+        # ),
+        # EPGSource(
+            # name="Denmark",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="dk"
+        # ),
+        # EPGSource(
+            # name="Finland",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="fi"
+        # ),
+        # EPGSource(
+            # name="Greece",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="gr"
+        # ),
+        # EPGSource(
+            # name="Hungary",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="hu"
+        # ),
+        # EPGSource(
+            # name="India",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="in"
+        # ),
+        # EPGSource(
+            # name="Japan",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_JP1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="jp"
+        # ),
+        # EPGSource(
+            # name="Mexico",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="mx"
+        # ),
+        # EPGSource(
+            # name="Norway",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="no"
+        # ),
+        # EPGSource(
+            # name="Serbia",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="rs"
+        # ),
+        # EPGSource(
+            # name="Slovakia",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="sk"
+        # ),
+        # EPGSource(
+            # name="Sweden",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="se"
+        # ),
+        # EPGSource(
+            # name="USA",
+            # url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+            # priority=1,
+            # enabled=True,
+            # country_code="us"
+        # ),
+        """
     ]
 
     def __init__(self, cache_dir: Optional[Path] = None, cache_ttl_hours: int = 12,
@@ -654,7 +662,7 @@ class EPGManager:
             return False
 
         # Parse and merge
-        channels, programs = self.parser.parse(xml_content, source.name)
+        channels, programs = self.parser.parse(xml_content, source.name, country_code=source.country_code)
 
         # Merge into main storage
         self.channels.update(channels)
@@ -664,6 +672,53 @@ class EPGManager:
             self.programs[ch_id].extend(progs)
 
         return True
+
+    def get_xml_for_country(self, country_code: str) -> Optional[bytes]:
+        """Generate EPG XML for the specified country, filtering the channels."""
+        if not self.channels:
+            return None
+
+        root = ET.Element("tv")
+
+        # Filter channels belonging to the given country
+        country_channels = {
+            ch_id: info
+            for ch_id, info in self.channels.items()
+            if info.country.lower() == country_code.lower()
+        }
+
+        if not country_channels:
+            return None
+
+        # Add the channels
+        for ch_id, info in country_channels.items():
+            ch_elem = ET.SubElement(root, "channel", id=ch_id)
+            dn = ET.SubElement(ch_elem, "display-name")
+            dn.text = info.display_name
+
+            if info.icon:
+                ET.SubElement(ch_elem, "icon", src=info.icon)
+
+        # Add programmes for these channels
+        for ch_id in country_channels:
+            progs = self.programs.get(ch_id, [])
+            for prog in progs:
+                p = ET.SubElement(
+                    root,
+                    "programme",
+                    start=prog.start.strftime("%Y%m%d%H%M%S %z"),
+                    stop=prog.stop.strftime("%Y%m%d%H%M%S %z"),
+                    channel=ch_id
+                )
+
+                t = ET.SubElement(p, "title")
+                t.text = prog.title
+
+                if prog.desc:
+                    d = ET.SubElement(p, "desc")
+                    d.text = prog.desc
+
+        return ET.tostring(root, encoding="utf-8", xml_declaration=True)
 
     def get_aggregated_xml(self) -> Optional[bytes]:
         """Genera XML EPG aggregato per tutti i paesi."""
@@ -681,9 +736,9 @@ class EPGManager:
         for ch_id, progs in self.programs.items():
             for prog in progs:
                 p = ET.SubElement(root, "programme",
-                                   start=prog.start.strftime("%Y%m%d%H%M%S %z"),
-                                   stop=prog.stop.strftime("%Y%m%d%H%M%S %z"),
-                                   channel=ch_id)
+                                  start=prog.start.strftime("%Y%m%d%H%M%S %z"),
+                                  stop=prog.stop.strftime("%Y%m%d%H%M%S %z"),
+                                  channel=ch_id)
                 t = ET.SubElement(p, "title")
                 t.text = prog.title
                 if prog.desc:
@@ -702,9 +757,7 @@ class EPGManager:
         """Find channel by normalized name."""
         norm = self.parser.normalize_name(name)
         ch_id = self.name_to_id.get(norm)
-        if ch_id:
-            return self.channels.get(ch_id)
-        return None
+        return self.channels.get(ch_id) if ch_id else None
 
     def get_current_program(self, channel_id: str,
                             norm_name: Optional[str] = None) -> Tuple[Optional[str], Optional[str], Optional[datetime], Optional[datetime]]:
@@ -771,8 +824,15 @@ if __name__ == "__main__":
         print(f"Loaded programs for {len(manager.programs)} channels")
 
         # Test lookup
-        rai1 = manager.get_channel_by_name("Rai 1")
-        if rai1:
-            print(f"Found RAI 1: {rai1.display_name}")
-            title, desc, start, stop = manager.get_current_program(rai1.id)
-            print(f"Current program: {title}")
+        for source in manager.sources:
+            if source.enabled and source.country_code:
+                xml_data = manager.get_xml_for_country(source.country_code)
+                if xml_data:
+                    filename = f"epg_{source.country_code}.xml"
+                    with open(filename, "wb") as f:
+                        f.write(xml_data)
+                    print(f"Generated {filename}")
+                else:
+                    print(f"No data for {source.country_code}")
+    else:
+        print("Failed to load EPG data")

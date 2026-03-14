@@ -4,8 +4,8 @@ Testa un campione di canali per verificare che gli stream siano raggiungibili
 """
 import re
 import requests
-import time
-import sys
+# import time
+# import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Disable SSL warnings
@@ -15,6 +15,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 USER_AGENT = "okhttp/4.11.0"
 TIMEOUT = 15
 MAX_WORKERS = 10
+
 
 def get_auth_signature():
     """Ottiene la signature per risolvere i link Vavoo."""
@@ -60,6 +61,7 @@ def get_auth_signature():
         print(f"Errore autenticazione: {e}")
         return None
 
+
 def resolve_vavoo_url(url, signature):
     """Risolve un URL Vavoo usando la signature."""
     headers = {
@@ -81,15 +83,17 @@ def resolve_vavoo_url(url, signature):
         if isinstance(result, list) and len(result) > 0:
             return result[0].get("url")
     except Exception as e:
+        print(e)
         pass
     return None
+
 
 def parse_playlist(path):
     """Parse M3U8 e ritorna lista di canali."""
     channels = []
     with open(path, "r", encoding="utf-8") as f:
         lines = f.readlines()
-    
+
     i = 0
     while i < len(lines):
         line = lines[i].strip()
@@ -97,14 +101,14 @@ def parse_playlist(path):
             # Extract name
             name_match = re.search(r',(.+)$', line)
             name = name_match.group(1).strip() if name_match else "Unknown"
-            
+
             # Extract tvg-id
             tvg_id_match = re.search(r'tvg-id="([^"]*)"', line)
             tvg_id = tvg_id_match.group(1) if tvg_id_match else ""
-            
+
             # Get URL
             url = lines[i + 1].strip() if i + 1 < len(lines) else ""
-            
+
             if url and not url.startswith("#"):
                 channels.append({
                     "name": name,
@@ -116,11 +120,12 @@ def parse_playlist(path):
             i += 1
     return channels
 
+
 def test_channel(channel, signature):
     """Testa un singolo canale."""
     name = channel["name"]
     url = channel["url"]
-    
+
     # Se è un URL Vavoo, prova a risolverlo
     if "vavoo" in url.lower():
         resolved = resolve_vavoo_url(url, signature)
@@ -173,22 +178,23 @@ def test_channel(channel, signature):
                 "resolved": False
             }
 
+
 def main():
     playlist_path = "playlist.m3u8"
-    
+
     print("=" * 60)
     print("VERIFICA LINK PLAYLIST")
     print("=" * 60)
-    
+
     # Parse playlist
     print(f"\nParsing {playlist_path}...")
     channels = parse_playlist(playlist_path)
     print(f"Trovati {len(channels)} canali")
-    
+
     if not channels:
         print("Nessun canale trovato!")
         return
-    
+
     # Ottieni signature
     print("\nOttenimento signature...")
     signature = get_auth_signature()
@@ -196,45 +202,46 @@ def main():
         print("ERRORE: Impossibile ottenere signature!")
         return
     print("Signature ottenuta!")
-    
+
     # Testa un campione (primi 20 canali)
     sample_size = min(20, len(channels))
     sample = channels[:sample_size]
-    
+
     print(f"\nTest di {sample_size} canali (campione)...")
     print("-" * 60)
-    
+
     results = []
     working = 0
     failed = 0
-    
+
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {executor.submit(test_channel, ch, signature): ch for ch in sample}
-        
+
         for future in as_completed(futures):
             result = future.result()
             results.append(result)
-            
+
             status_icon = "[OK]" if result["ok"] else "[FAIL]"
             status_text = f"HTTP {result['status']}" if result['status'] > 0 else result.get("error", "Errore")
-            
+
             print(f"{status_icon} {result['name'][:40]:<40} {status_text}")
-            
+
             if result["ok"]:
                 working += 1
             else:
                 failed += 1
-    
+
     # Riepilogo
     print("-" * 60)
-    print(f"\nRIEPILOGO:")
+    print("\nRIEPILOGO:")
     print(f"  [OK] Funzionanti: {working}/{sample_size}")
     print(f"  [FAIL] Non funzionanti: {failed}/{sample_size}")
-    print(f"  [%] Percentuale successo: {(working/sample_size)*100:.1f}%")
-    
+    print(f"  [%] Percentuale successo: {(working / sample_size) * 100:.1f}%")
+
     if failed > 0:
-        print(f"\n⚠️  Alcuni canali potrebbero essere temporaneamente offline.")
-        print(f"   I link Vavoo sono dinamici e cambiano frequentemente.")
+        print("\n⚠️  Alcuni canali potrebbero essere temporaneamente offline.")
+        print("   I link Vavoo sono dinamici e cambiano frequentemente.")
+
 
 if __name__ == "__main__":
     main()

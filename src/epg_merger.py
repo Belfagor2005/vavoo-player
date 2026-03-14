@@ -7,22 +7,23 @@ filters CH to only RSI LA 1/LA 2, deduplicates programmes,
 and outputs a single merged epg.xml.
 """
 
-import gzip
+# import gzip
 import io
 import logging
 import xml.etree.ElementTree as ET
-from typing import Optional, Dict, Set, Tuple
+from typing import Optional, Dict, Tuple  # , Set
 from src.epg_manager import EPGManager, EPGSource, EPGDownloader, EPGCache
 from src.playlist_generator import EPG_MAP
 
 
-# All 4 sources as separate entries for maximum coverage
-# EPG_SOURCES = [
-    # EPGSource(name="IT_primary", url="https://iptv-epg.org/files/epg-it.xml.gz", priority=0),
-    # EPGSource(name="IT_backup", url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", priority=1),
-    # EPGSource(name="CH_primary", url="https://iptv-epg.org/files/epg-ch.xml.gz", priority=2),
-    # EPGSource(name="CH_backup", url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz", priority=3),
-# ]
+"""
+EPG_SOURCES = [
+    EPGSource(name="IT_primary", url="https://iptv-epg.org/files/epg-it.xml.gz", priority=0),
+    EPGSource(name="IT_backup", url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", priority=1),
+    EPGSource(name="CH_primary", url="https://iptv-epg.org/files/epg-ch.xml.gz", priority=2),
+    EPGSource(name="CH_backup", url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz", priority=3),
+]
+"""
 EPG_SOURCES = [src for src in EPGManager.DEFAULT_SOURCES if src.enabled]
 # Channel IDs actually used in the playlist
 PLAYLIST_CHANNEL_IDS = set(EPG_MAP.values())
@@ -53,9 +54,9 @@ def _download_source(source: EPGSource, downloader: EPGDownloader, cache: EPGCac
 
 def merge_epg(output_path: str) -> bool:
     """Merge all EPG sources into a single XMLTV file.
-    
+
     Only includes channels whose IDs appear in the playlist's EPG_MAP.
-    
+
     Returns True if at least one source was merged successfully.
     """
     downloader = EPGDownloader()
@@ -125,7 +126,7 @@ def merge_epg(output_path: str) -> bool:
 
     # Build output XMLTV
     logging.info(f"Building merged EPG: {len(merged_channels)} channels, {len(merged_programmes)} programmes...")
-    
+
     out_root = ET.Element("tv")
     out_root.set("generator-info-name", "vavoo-epg-merger")
 
@@ -137,7 +138,7 @@ def merge_epg(output_path: str) -> bool:
 
     tree = ET.ElementTree(out_root)
     ET.indent(tree, space="  ")
-    
+
     with open(output_path, "wb") as f:
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
         f.write(b'<!DOCTYPE tv SYSTEM "xmltv.dtd">\n')
