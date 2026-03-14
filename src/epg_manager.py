@@ -469,7 +469,6 @@ class EPGManager:
             enabled=True,
             country_code="gb"
         )
-        """
         # EPGSource(
             # name="Australia",
             # url="https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz",
@@ -603,7 +602,7 @@ class EPGManager:
             # enabled=True,
             # country_code="us"
         # ),
-        """
+
     ]
 
     def __init__(self, cache_dir: Optional[Path] = None, cache_ttl_hours: int = 12,
