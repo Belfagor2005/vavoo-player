@@ -16,27 +16,17 @@ Automated M3U8 playlist generator for Italian IPTV channels from Vavoo sources, 
 
 ## 🚀 Quick Start
 
-### Windows (start.bat)
-
-```batch
-git clone https://github.com/mich-de/vavoo-player.git
-cd vavoo-player
-start.bat
-```
-
-### Manual
-
 ```bash
-cd python_iptv
 python -m venv .venv
 .venv/Scripts/pip install -r requirements.txt
-.venv/Scripts/python generate_playlist_cli.py --output ../playlist.m3u8
+.venv/Scripts/python generate_playlist.py --output playlist.m3u8
 ```
 
 ### CLI Options
 
 ```
 --output PATH       Output file path (default: playlist.m3u8)
+--epg-output PATH   Output path for merged EPG (e.g. epg.xml)
 --groups GROUP...   Groups to include (default: Italy)
 ```
 
@@ -46,17 +36,19 @@ python -m venv .venv
 vavoo-player/
 ├── .github/workflows/
 │   ├── generate_playlist.yml   Daily playlist generation
+│   ├── generate_epg.yml        EPG generation every 6 hours
 │   └── cleanup_runs.yml        Weekly workflow runs cleanup
-├── logos/                      Channel logos (PNG/SVG)
-├── python_iptv/
-│   ├── generate_playlist_cli.py   CLI entry point
-│   ├── requirements.txt
-│   └── src/
-│       ├── playlist_generator.py  Core generator
-│       ├── epg_manager.py         EPG data management
-│       └── data_manager.py        Channel & logo management
-├── playlist.m3u8               Generated playlist
-└── start.bat                   Windows launcher
+├── src/
+│   ├── __init__.py
+│   ├── playlist_generator.py   Core generator
+│   ├── epg_manager.py          EPG data management
+│   ├── epg_merger.py           EPG sources merger
+│   └── data_manager.py         Channel & logo management
+├── logos/                      Channel logos (PNG)
+├── generate_playlist.py        CLI entry point
+├── requirements.txt
+├── GEMINI.MD
+└── README.md
 ```
 
 ## 📡 EPG Sources

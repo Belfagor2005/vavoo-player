@@ -31,11 +31,11 @@ jobs:
 
       - name: Generate merged EPG
         run: |
-          cd python_iptv && python -c "
+          python -c "
           import logging, sys
           logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
           from src.epg_merger import merge_epg
-          sys.exit(0 if merge_epg('../epg.xml') else 1)
+          sys.exit(0 if merge_epg('epg.xml') else 1)
           "
 
       - name: Commit and Push EPG

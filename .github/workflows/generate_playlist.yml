@@ -31,7 +31,7 @@ jobs:
 
       - name: Generate Playlist and EPG
         run: |
-          python python_iptv/generate_playlist_cli.py --output playlist.m3u8 --epg-output epg.xml
+          python generate_playlist.py --output playlist.m3u8 --epg-output epg.xml
 
       - name: Commit and Push changes
         run: |
