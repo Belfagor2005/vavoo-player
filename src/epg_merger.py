@@ -92,8 +92,8 @@ def merge_epg(output_path: str) -> bool:
                 continue
 
             # Only keep channels that are in our playlist's EPG_MAP
-            if ch_id not in PLAYLIST_CHANNEL_IDS:
-                continue
+            # if ch_id not in PLAYLIST_CHANNEL_IDS:
+                # continue
 
             if ch_id not in merged_channels:
                 merged_channels[ch_id] = ch_elem
@@ -107,8 +107,8 @@ def merge_epg(output_path: str) -> bool:
             if not ch_id or not start:
                 continue
 
-            if ch_id not in PLAYLIST_CHANNEL_IDS:
-                continue
+            # if ch_id not in PLAYLIST_CHANNEL_IDS:
+                # continue
 
             # Deduplicate by (channel_id, start)
             key = (ch_id, start)
