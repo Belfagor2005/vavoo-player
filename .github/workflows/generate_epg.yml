@@ -34,7 +34,7 @@ jobs:
           python -c "
           import logging, sys, os
           logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
-          sys.path.append(os.path.join(os.path.dirname(__file__)))
+          sys.path.append(os.getcwd())
           from src.epg_merger import generate_country_files
           sys.exit(0 if generate_country_files('.') else 1)
           "
