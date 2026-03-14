@@ -11,6 +11,7 @@ from src.playlist_generator import PlaylistGenerator
 def main():
     parser = argparse.ArgumentParser(description="Generate Vavoo IPTV Playlist")
     parser.add_argument("--output", default="playlist.m3u8", help="Output path for the playlist")
+    # L'argomento --epg-output non serve più, lo lasciamo per compatibilità ma non lo usiamo
     parser.add_argument("--epg-output", default=None, help="(Deprecated) Ignored")
     parser.add_argument("--groups", nargs="+", default=["Italy"], help="Groups to include")
     

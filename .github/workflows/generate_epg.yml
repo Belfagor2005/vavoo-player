@@ -29,26 +29,27 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Generate merged EPG
+      - name: Generate country EPG files
         run: |
           python -c "
-          import logging, sys
+          import logging, sys, os
           logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
-          from src.epg_merger import merge_epg
-          sys.exit(0 if merge_epg('epg.xml') else 1)
+          sys.path.append(os.path.join(os.path.dirname(__file__)))
+          from src.epg_merger import generate_country_files
+          sys.exit(0 if generate_country_files('.') else 1)
           "
 
-      - name: Commit and Push EPG
+      - name: Commit and Push EPG files
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           
-          git add epg.xml
+          git add epg_*.xml
           
           if git diff --cached --quiet; then
             echo "No EPG changes to commit"
             exit 0
           fi
           
-          git commit -m "Auto-update EPG [skip ci]"
+          git commit -m "Auto-update EPG files [skip ci]"
           git push
