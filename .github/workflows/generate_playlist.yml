@@ -33,18 +33,22 @@ jobs:
         run: |
           python generate_playlist.py --output playlist.m3u8 --epg-output epg.xml
 
+      - name: Generate Playlist
+        run: |
+          python generate_playlist.py --output playlist.m3u8
+
       - name: Commit and Push changes
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           
-          git add playlist.m3u8 epg.xml
+          git add playlist.m3u8
           
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
           
-          git commit -m "Auto-update playlist and EPG [skip ci]"
+          git commit -m "Auto-update playlist [skip ci]"
           git pull --rebase origin master
           git push
