@@ -261,17 +261,11 @@ https://vavoo.to/vavoo-iptv/play/21132730647ae733a10331
 #EXTINF:-1 tvg-id="Focus.it" tvg-name="FOCUS" tvg-logo="" channel="Focus.it" group-title="Documentary",FOCUS
 https://vavoo.to/vavoo-iptv/play/3439223610a4fec93d907a
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="Focus.it" tvg-name="FOCUS" tvg-logo="" channel="Focus.it" group-title="Documentary",FOCUS
-https://vavoo.to/vavoo-iptv/play/29825504332b9997336c1e
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="Focus.it" tvg-name="FOCUS" tvg-logo="" channel="Focus.it" group-title="TV Sat",FOCUS
 https://vavoo.to/vavoo-iptv/play/21132730647ae733a10331
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="Focus.it" tvg-name="FOCUS" tvg-logo="" channel="Focus.it" group-title="TV Sat",FOCUS
 https://vavoo.to/vavoo-iptv/play/3439223610a4fec93d907a
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="Focus.it" tvg-name="FOCUS" tvg-logo="" channel="Focus.it" group-title="TV Sat",FOCUS
-https://vavoo.to/vavoo-iptv/play/29825504332b9997336c1e
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="RTL1025.it" tvg-name="RTL 102.5" tvg-logo="" channel="RTL1025.it" group-title="Music",RTL 102.5
 https://vavoo.to/vavoo-iptv/play/3168132911491b6a85a6e2
@@ -426,6 +420,9 @@ https://vavoo.to/vavoo-iptv/play/3475299702c52e31a7073f
 #EXTINF:-1 tvg-id="DAZN1.it" tvg-name="DAZN 1" tvg-logo="" channel="DAZN1.it" group-title="Sport",DAZN 1
 https://vavoo.to/vavoo-iptv/play/1376440573d46b3d682e20
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
+#EXTINF:-1 tvg-id="DAZN2.it" tvg-name="DAZN 2" tvg-logo="" channel="DAZN2.it" group-title="Sport",DAZN 2
+https://vavoo.to/vavoo-iptv/play/3635062218e0132c616db
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="SkySportUno.it" tvg-name="SKY SPORT UNO" tvg-logo="" channel="SkySportUno.it" group-title="Sport",SKY SPORT UNO
 https://vavoo.to/vavoo-iptv/play/210669162201ec2365574
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -461,9 +458,6 @@ https://vavoo.to/vavoo-iptv/play/449990998077a7691828f
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="SkySportF1.it" tvg-name="SKY SPORT F1" tvg-logo="" channel="SkySportF1.it" group-title="Sport",SKY SPORT F1
 https://vavoo.to/vavoo-iptv/play/42467740561588897497f2
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="SkySportF1.it" tvg-name="SKY SPORT F1" tvg-logo="" channel="SkySportF1.it" group-title="Sport",SKY SPORT F1
-https://vavoo.to/vavoo-iptv/play/22890389722acc4573933d
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="SkySportTennis.it" tvg-name="SKY SPORT TENNIS" tvg-logo="" channel="SkySportTennis.it" group-title="Sport",SKY SPORT TENNIS
 https://vavoo.to/vavoo-iptv/play/210077178262e76f204fa6
@@ -663,6 +657,9 @@ https://vavoo.to/vavoo-iptv/play/30363168866e9eeb997936
 #EXTINF:-1 tvg-id="SkySportMotoGP.it" tvg-name="SKY SPORT MOTO GP" tvg-logo="" channel="SkySportMotoGP.it" group-title="Sport",SKY SPORT MOTO GP
 https://vavoo.to/vavoo-iptv/play/2090703806f47d7eb551ce
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
+#EXTINF:-1 tvg-id="DAZN.it" tvg-name="DAZN" tvg-logo="" channel="DAZN.it" group-title="Sport",DAZN
+https://vavoo.to/vavoo-iptv/play/2303792166c73d1b7a1439
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="PRIMA TV" tvg-name="PRIMA TV" tvg-logo="" channel="PRIMA TV" group-title="Other",PRIMA TV
 https://vavoo.to/vavoo-iptv/play/530658045774685c88ed8
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -727,9 +724,6 @@ https://vavoo.to/vavoo-iptv/play/312451299385241b4e7078
 https://vavoo.to/vavoo-iptv/play/25326356590c9338734e4b
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="ComedyCentral.it" tvg-name="COMEDY CENTRAL" tvg-logo="" channel="ComedyCentral.it" group-title="Intrattenimento",COMEDY CENTRAL
-https://vavoo.to/vavoo-iptv/play/365827745096a993ffc066
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="ComedyCentral.it" tvg-name="COMEDY CENTRAL" tvg-logo="" channel="ComedyCentral.it" group-title="Intrattenimento",COMEDY CENTRAL
 https://vavoo.to/vavoo-iptv/play/433893159bf516cde9a97
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="FASHION TV" tvg-name="FASHION TV" tvg-logo="" channel="FASHION TV" group-title="Intrattenimento",FASHION TV
@@ -761,6 +755,9 @@ https://vavoo.to/vavoo-iptv/play/803540254d5a6317673b3
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="NICK JR" tvg-name="NICK JR" tvg-logo="" channel="NICK JR" group-title="Kids",NICK JR
 https://vavoo.to/vavoo-iptv/play/38095847274e645e8a065
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+#EXTINF:-1 tvg-id="Nickelodeon.it" tvg-name="NICKELODEON" tvg-logo="" channel="Nickelodeon.it" group-title="Kids",NICKELODEON
+https://vavoo.to/vavoo-iptv/play/30393892159798f5cebb7c
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="CANALE 21 CAMPANIA" tvg-name="CANALE 21 CAMPANIA" tvg-logo="" channel="CANALE 21 CAMPANIA" group-title="Locali",CANALE 21 CAMPANIA
 https://vavoo.to/vavoo-iptv/play/390600788675c13850cd70
