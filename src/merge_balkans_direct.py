@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 from io import BytesIO
 import sys
 
+
 def download_and_parse(url):
     """Download gzipped XML, decompress and parse."""
     print(f"Downloading {url}")
@@ -39,15 +40,27 @@ def merge_xml_files(urls, output_xml, output_gz):
     for prog in programmes:
         tv.append(prog)
 
-    # Write uncompressed XML
-    tree_out = ET.ElementTree(tv)
-    tree_out.write(output_xml, encoding='utf-8', xml_declaration=True)
+    # Convert the whole tree to a bytes string
+    xml_bytes = ET.tostring(tv, encoding='utf-8', xml_declaration=True)
+
+    # Write uncompressed file
+    with open(output_xml, 'wb') as f:
+        f.write(xml_bytes)
     print(f"Saved merged XML to {output_xml}")
 
-    # Write compressed GZ
-    with gzip.open(output_gz, 'wt', encoding='utf-8') as f:
-        tree_out.write(f, encoding='utf-8', xml_declaration=True)
+    # Write compressed file
+    with gzip.open(output_gz, 'wb') as f:
+        f.write(xml_bytes)
     print(f"Saved compressed GZ to {output_gz}")
+
+
+if __name__ == '__main__':
+    urls = [
+        "https://epgshare01.online/epgshare01/epg_ripper_BA1.xml.gz",
+        "https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz",
+        "https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz"
+    ]
+    merge_xml_files(urls, 'epg_bk.xml', 'epg_bk.xml.gz')
 
 if __name__ == '__main__':
     urls = [
