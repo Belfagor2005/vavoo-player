@@ -27,6 +27,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add epg_bk.xml
+          git add epg_bk.xml epg_bk.xml.gz
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update merged Balkans EPG [skip ci]"
           git push
