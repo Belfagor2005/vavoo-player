@@ -1,5 +1,2 @@
 requests
 tzdata
-flask
-gunicorn
-streamlink
