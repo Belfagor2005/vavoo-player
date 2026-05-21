@@ -593,7 +593,7 @@
     <icon src="https://tvgidsassets.nl/v378/img/channels/120x120/99.png" />
     <url>http://www.tvgids.nl</url>
   </channel>
-  <programme start="20260520040200 +0000" stop="20260520070000 +0000" channel="192TV.nl">
+  <programme start="20260521040100 +0000" stop="20260521070000 +0000" channel="192TV.nl">
     <title lang="nl">Ook goeiemorgen</title>
     <desc lang="nl">De dag begint met de beste clips uit ons archief, van The Kinks tot Prince en van Phil Collins tot Cat Stevens, zo is het lekker wakker worden!  Ook goeiemorgen!</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -601,7 +601,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520070000 +0000" stop="20260520080200 +0000" channel="192TV.nl">
+  <programme start="20260521070000 +0000" stop="20260521080200 +0000" channel="192TV.nl">
     <title lang="nl">Muziek terwijl u werkt</title>
     <desc lang="nl">Of u nou aan het werk bent of de dag gewoon lekker rustig begint, dit uur komen de beste clips voorbij. Van The Four Tops tot Boney M en van Herman’s Hermits tot Adamo, zó wil je je werkdag beginnen.</desc>
     <icon src="https://cdn.images.simply.tv/7559143526620989063.jpg" />
@@ -609,7 +609,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520080200 +0000" stop="20260520100000 +0000" channel="192TV.nl">
+  <programme start="20260521080200 +0000" stop="20260521100200 +0000" channel="192TV.nl">
     <title lang="nl">Koffietijd</title>
     <desc lang="nl">Twee uur lang de leukste clips voor bij koffie. Van Abba tot E.L.O. en van Greenfield &amp; Cook tot The Moody Blues, het zijn weer twee lekkere uurtjes bij 192TV. Koffietijd!</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -617,7 +617,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520100000 +0000" stop="20260520120200 +0000" channel="192TV.nl">
+  <programme start="20260521100200 +0000" stop="20260521120000 +0000" channel="192TV.nl">
     <title lang="nl">Muziek bij de lunch</title>
     <desc lang="nl">Tijdens deze lunch kan echt alles voorbijkomen, van soul tot rock en van Nederlandstalig tot de beste Franse chansons. Twee uur lang de beste mix van grote hits en leuke clips, de leukste muziek bij je lunch!</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -625,7 +625,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520120200 +0000" stop="20260520140100 +0000" channel="192TV.nl">
+  <programme start="20260521120000 +0000" stop="20260521140200 +0000" channel="192TV.nl">
     <title lang="nl">Hits uit zee</title>
     <desc lang="nl">De grootste hits uit de jaren 60, 70 en 80 komen voorbij in twee uur Hits uit zee. Je waant je weer terug in de ‘piratentijd’, Veronica, RNI, Caroline, allemaal draaiden ze de grote hits vanaf zee. Compleet met de originele jingles komen ze ook nu weer voorbij, van The Small Faces, Procol Harum en The Who, tot George Baker Selection, Shocking Blue en The Cats. Twee uur lang net doen of de hits weer van zee komen!</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -633,7 +633,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520140100 +0000" stop="20260520160200 +0000" channel="192TV.nl">
+  <programme start="20260521140200 +0000" stop="20260521160100 +0000" channel="192TV.nl">
     <title lang="nl">Alle remmen los</title>
     <desc lang="nl">Tussen 4 en 6 uur de beste ‘drive time’ hits, echte popklassiekers die je graag aan zou zetten als je op weg naar huis zou zijn. Gelukkig ben je al thuis en kun je twee uur lang Sniff ’n The Tears, Carly Simon, Chris Rea, Rod Stewart, Dire Straits e.v.a. voorbij zien komen. De volumeknop kan omhoog!</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -641,7 +641,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520160200 +0000" stop="20260520170000 +0000" channel="192TV.nl">
+  <programme start="20260521160100 +0000" stop="20260521170000 +0000" channel="192TV.nl">
     <title lang="nl">Jukebox 192TV</title>
     <desc lang="nl">De leukste clips tijdens het eten!</desc>
     <icon src="https://cdn.images.simply.tv/7837174587871669300.jpg" />
@@ -649,7 +649,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520170000 +0000" stop="20260520180100 +0000" channel="192TV.nl">
+  <programme start="20260521170000 +0000" stop="20260521180300 +0000" channel="192TV.nl">
     <title lang="nl">LX Classics</title>
     <desc lang="nl">Een ieder kent Lex Harding, presentator van de Top 40 vanaf 1970 tot 1989 en ontdekker van menig hit die vandaag de dag klassieker genoemd mag worden. Nu een uur lang de keuze van Lex Harding in LX Classics, van Meat Loaf tot Skylark en van The Buoys tot Cream, alleen maar echt klassiekers dus. LX Classics is ook 24/7 te beluisteren als radiostation.</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -657,7 +657,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520180100 +0000" stop="20260520190300 +0000" channel="192TV.nl">
+  <programme start="20260521180300 +0000" stop="20260521190100 +0000" channel="192TV.nl">
     <title lang="nl">ABTT Non Stop</title>
     <desc lang="nl">Al in 1965 kwam Ad Bouman als technicus bij Radio Veronica werken en in het programma van Willem van Kooten (Joost den Draaijer) lanceerde hij voor de eerste keer de ABTT (Adje Bouman Top 10). Toen Willem weg ging bij Veronica hield de ABTT er mee op, tot hij in de jaren 70 nieuw leven werd ingeblazen tijdens de LEXJO van Lex Harding. Ad Bouman, bijgenaamd De Meester (her)knipte ook diverse singles die daardoor draaibaar werden, de belangrijkste zijn Deep Purple’s “Child In Time”. In dit uur dus de keuze van de Meester zelf, gebaseerd op de vele jaren Top 10’s van AB op Radio Veronica, met clips van Deep Purple tot Paul Revere and the Raiders en van The Beatles tot Dusty Springfield.</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -665,7 +665,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520190300 +0000" stop="20260520200300 +0000" channel="192TV.nl">
+  <programme start="20260521190100 +0000" stop="20260521200000 +0000" channel="192TV.nl">
     <title lang="nl">Freakolympics</title>
     <desc lang="nl">Er zijn mensen die veel van muziek weten en er is Rob Stenders. Zijn grote voorliefde van jaren 60 en 70 muziek komt nu een uur lang voorbij in Freakolympics. Van Seals and Crofts tot The Five Man Electric Band en van The Stones tot Prince. Rob is ook de hele week te horen met zijn muziekkeuze op Radio Veronica.</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -673,7 +673,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520200300 +0000" stop="20260520210200 +0000" channel="192TV.nl">
+  <programme start="20260521200000 +0000" stop="20260521210000 +0000" channel="192TV.nl">
     <title lang="nl">Herinnert u zich deze nog</title>
     <desc lang="nl">De leukste eendagsvliegen, de echte middle of the road Top 40 singles zoals Bert van Breda ze vroeger al uitbracht op cd en dvd met zijn platenlabel BR Music. Naast de eendagsvliegen nu een uur lang artiesten als The Tremeloes, Dave Dee, Dozy, Beaky, Mick &amp; Tich, Joe Dolan, The Bee Gees, The Hollies en natuurlijk Demis Roussos!</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -681,7 +681,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520210200 +0000" stop="20260520220200 +0000" channel="192TV.nl">
+  <programme start="20260521210000 +0000" stop="20260521220200 +0000" channel="192TV.nl">
     <title lang="nl">Nachtwacht</title>
     <desc lang="nl">Een uur lang alleen de beste slows en ballads, van prachtige soulklassiekers van The Chi-Lites tot echte slijpers uit de jaren 60. Maar ook de jaren 80 komen aan bod, van Spandau Ballet tot Lionel Richie, het is nu een uur lang genieten van de rustige nummers uit het 192TV aanbod.</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -689,7 +689,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520220200 +0000" stop="20260521020200 +0000" channel="192TV.nl">
+  <programme start="20260521220200 +0000" stop="20260522020200 +0000" channel="192TV.nl">
     <title lang="nl">Nachtklup</title>
     <desc lang="nl">De beste gouwe ouwe clips die 192TV in de aanbieding heeft om de nacht in te gaan. Beatles, Stones, Alice Cooper, Abba, Bee Gees, alleen de grootste hits komen voorbij! Gaan we slapen of zullen we toch even de volgende clip afwachten….</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -697,7 +697,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260521020200 +0000" stop="20260521040200 +0000" channel="192TV.nl">
+  <programme start="20260522020200 +0000" stop="20260522040100 +0000" channel="192TV.nl">
     <title lang="nl">Nachtklup</title>
     <desc lang="nl">De beste gouwe ouwe clips die 192TV in de aanbieding heeft om de nacht in te gaan. Beatles, Stones, Alice Cooper, Abba, Bee Gees, alleen de grootste hits komen voorbij! Gaan we slapen of zullen we toch even de volgende clip afwachten….</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -705,7 +705,7 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260521040200 +0000" stop="20260521070100 +0000" channel="192TV.nl">
+  <programme start="20260522040100 +0000" stop="20260522070000 +0000" channel="192TV.nl">
     <title lang="nl">Ook goeiemorgen</title>
     <desc lang="nl">De dag begint met de beste clips uit ons archief, van The Kinks tot Prince en van Phil Collins tot Cat Stevens, zo is het lekker wakker worden!  Ook goeiemorgen!</desc>
     <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
@@ -713,117 +713,8 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260521070100 +0000" stop="20260521080200 +0000" channel="192TV.nl">
-    <title lang="nl">Muziek terwijl u werkt</title>
-    <desc lang="nl">Of u nou aan het werk bent of de dag gewoon lekker rustig begint, dit uur komen de beste clips voorbij. Van The Four Tops tot Boney M en van Herman’s Hermits tot Adamo, zó wil je je werkdag beginnen.</desc>
-    <icon src="https://cdn.images.simply.tv/7559143526620989063.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521080200 +0000" stop="20260521100000 +0000" channel="192TV.nl">
-    <title lang="nl">Koffietijd</title>
-    <desc lang="nl">Twee uur lang de leukste clips voor bij koffie. Van Abba tot E.L.O. en van Greenfield &amp; Cook tot The Moody Blues, het zijn weer twee lekkere uurtjes bij 192TV. Koffietijd!</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521100000 +0000" stop="20260521120100 +0000" channel="192TV.nl">
-    <title lang="nl">Muziek bij de lunch</title>
-    <desc lang="nl">Tijdens deze lunch kan echt alles voorbijkomen, van soul tot rock en van Nederlandstalig tot de beste Franse chansons. Twee uur lang de beste mix van grote hits en leuke clips, de leukste muziek bij je lunch!</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521120100 +0000" stop="20260521140200 +0000" channel="192TV.nl">
-    <title lang="nl">Hits uit zee</title>
-    <desc lang="nl">De grootste hits uit de jaren 60, 70 en 80 komen voorbij in twee uur Hits uit zee. Je waant je weer terug in de ‘piratentijd’, Veronica, RNI, Caroline, allemaal draaiden ze de grote hits vanaf zee. Compleet met de originele jingles komen ze ook nu weer voorbij, van The Small Faces, Procol Harum en The Who, tot George Baker Selection, Shocking Blue en The Cats. Twee uur lang net doen of de hits weer van zee komen!</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521140200 +0000" stop="20260521160000 +0000" channel="192TV.nl">
-    <title lang="nl">Alle remmen los</title>
-    <desc lang="nl">Tussen 4 en 6 uur de beste ‘drive time’ hits, echte popklassiekers die je graag aan zou zetten als je op weg naar huis zou zijn. Gelukkig ben je al thuis en kun je twee uur lang Sniff ’n The Tears, Carly Simon, Chris Rea, Rod Stewart, Dire Straits e.v.a. voorbij zien komen. De volumeknop kan omhoog!</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521160000 +0000" stop="20260521170000 +0000" channel="192TV.nl">
-    <title lang="nl">Jukebox 192TV</title>
-    <desc lang="nl">De leukste clips tijdens het eten!</desc>
-    <icon src="https://cdn.images.simply.tv/7837174587871669300.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521170000 +0000" stop="20260521180200 +0000" channel="192TV.nl">
-    <title lang="nl">LX Classics</title>
-    <desc lang="nl">Een ieder kent Lex Harding, presentator van de Top 40 vanaf 1970 tot 1989 en ontdekker van menig hit die vandaag de dag klassieker genoemd mag worden. Nu een uur lang de keuze van Lex Harding in LX Classics, van Meat Loaf tot Skylark en van The Buoys tot Cream, alleen maar echt klassiekers dus. LX Classics is ook 24/7 te beluisteren als radiostation.</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521180200 +0000" stop="20260521190100 +0000" channel="192TV.nl">
-    <title lang="nl">ABTT Non Stop</title>
-    <desc lang="nl">Al in 1965 kwam Ad Bouman als technicus bij Radio Veronica werken en in het programma van Willem van Kooten (Joost den Draaijer) lanceerde hij voor de eerste keer de ABTT (Adje Bouman Top 10). Toen Willem weg ging bij Veronica hield de ABTT er mee op, tot hij in de jaren 70 nieuw leven werd ingeblazen tijdens de LEXJO van Lex Harding. Ad Bouman, bijgenaamd De Meester (her)knipte ook diverse singles die daardoor draaibaar werden, de belangrijkste zijn Deep Purple’s “Child In Time”. In dit uur dus de keuze van de Meester zelf, gebaseerd op de vele jaren Top 10’s van AB op Radio Veronica, met clips van Deep Purple tot Paul Revere and the Raiders en van The Beatles tot Dusty Springfield.</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521190100 +0000" stop="20260521200200 +0000" channel="192TV.nl">
-    <title lang="nl">Freakolympics</title>
-    <desc lang="nl">Er zijn mensen die veel van muziek weten en er is Rob Stenders. Zijn grote voorliefde van jaren 60 en 70 muziek komt nu een uur lang voorbij in Freakolympics. Van Seals and Crofts tot The Five Man Electric Band en van The Stones tot Prince. Rob is ook de hele week te horen met zijn muziekkeuze op Radio Veronica.</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521200200 +0000" stop="20260521210200 +0000" channel="192TV.nl">
-    <title lang="nl">Herinnert u zich deze nog</title>
-    <desc lang="nl">De leukste eendagsvliegen, de echte middle of the road Top 40 singles zoals Bert van Breda ze vroeger al uitbracht op cd en dvd met zijn platenlabel BR Music. Naast de eendagsvliegen nu een uur lang artiesten als The Tremeloes, Dave Dee, Dozy, Beaky, Mick &amp; Tich, Joe Dolan, The Bee Gees, The Hollies en natuurlijk Demis Roussos!</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521210200 +0000" stop="20260521220100 +0000" channel="192TV.nl">
-    <title lang="nl">Nachtwacht</title>
-    <desc lang="nl">Een uur lang alleen de beste slows en ballads, van prachtige soulklassiekers van The Chi-Lites tot echte slijpers uit de jaren 60. Maar ook de jaren 80 komen aan bod, van Spandau Ballet tot Lionel Richie, het is nu een uur lang genieten van de rustige nummers uit het 192TV aanbod.</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521220100 +0000" stop="20260522020100 +0000" channel="192TV.nl">
-    <title lang="nl">Nachtklup</title>
-    <desc lang="nl">De beste gouwe ouwe clips die 192TV in de aanbieding heeft om de nacht in te gaan. Beatles, Stones, Alice Cooper, Abba, Bee Gees, alleen de grootste hits komen voorbij! Gaan we slapen of zullen we toch even de volgende clip afwachten….</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260522020100 +0000" stop="20260522040100 +0000" channel="192TV.nl">
-    <title lang="nl">Nachtklup</title>
-    <desc lang="nl">De beste gouwe ouwe clips die 192TV in de aanbieding heeft om de nacht in te gaan. Beatles, Stones, Alice Cooper, Abba, Bee Gees, alleen de grootste hits komen voorbij! Gaan we slapen of zullen we toch even de volgende clip afwachten….</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260522040100 +0000" stop="20260522070200 +0000" channel="192TV.nl">
-    <title lang="nl">Ook goeiemorgen</title>
-    <desc lang="nl">De dag begint met de beste clips uit ons archief, van The Kinks tot Prince en van Phil Collins tot Cat Stevens, zo is het lekker wakker worden!  Ook goeiemorgen!</desc>
-    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
+  <programme start="20260522070000 +0000" stop="20260522070200 +0000" channel="192TV.nl">
+    <title lang="nl">Geen programma informatie beschikbaar</title>
   </programme>
   <programme start="20260522070200 +0000" stop="20260522080100 +0000" channel="192TV.nl">
     <title lang="nl">Muziek terwijl u werkt</title>
@@ -1129,66 +1020,58 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520030000 +0000" stop="20260520070000 +0000" channel="Stingray.Lite.TV.nl">
-    <title lang="nl">Light Up Your Day</title>
-    <desc lang="nl">Start the day off right with feel-good pop music videos that are mellow but never boring!</desc>
-    <icon src="https://cdn.images.simply.tv/8544835197048659714.jpg" />
+  <programme start="20260525020000 +0000" stop="20260525040000 +0000" channel="192TV.nl">
+    <title lang="nl">Nachtklup</title>
+    <desc lang="nl">De beste gouwe ouwe clips die 192TV in de aanbieding heeft om de nacht in te gaan. Beatles, Stones, Alice Cooper, Abba, Bee Gees, alleen de grootste hits komen voorbij! Gaan we slapen of zullen we toch even de volgende clip afwachten….</desc>
+    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
     <rating system="Kijkwijzer">
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520070000 +0000" stop="20260520110000 +0000" channel="Stingray.Lite.TV.nl">
-    <title lang="nl">Hit Parade</title>
-    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
-    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+  <programme start="20260525040000 +0000" stop="20260525060100 +0000" channel="192TV.nl">
+    <title lang="nl">Ook goeiemorgen</title>
+    <desc lang="nl">De dag begint met de beste clips uit ons archief, van The Kinks tot Prince en van Phil Collins tot Cat Stevens, zo is het lekker wakker worden!  Ook goeiemorgen!</desc>
+    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
     <rating system="Kijkwijzer">
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520110000 +0000" stop="20260520130000 +0000" channel="Stingray.Lite.TV.nl">
-    <title lang="nl">Hit Parade</title>
-    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
-    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+  <programme start="20260525060100 +0000" stop="20260525100100 +0000" channel="192TV.nl">
+    <title lang="nl">Testament van de eighties</title>
+    <desc lang="nl">De gehele dag terug naar de jaren 80 op 192TV!</desc>
+    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
     <rating system="Kijkwijzer">
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520130000 +0000" stop="20260520160000 +0000" channel="Stingray.Lite.TV.nl">
-    <title lang="nl">Hit Parade</title>
-    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
-    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+  <programme start="20260525100100 +0000" stop="20260525140100 +0000" channel="192TV.nl">
+    <title lang="nl">Testament van de eighties</title>
+    <desc lang="nl">De gehele dag terug naar de jaren 80 op 192TV!</desc>
+    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
     <rating system="Kijkwijzer">
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520160000 +0000" stop="20260520190000 +0000" channel="Stingray.Lite.TV.nl">
-    <title lang="nl">Party Mix</title>
-    <desc lang="nl">A crowd-pleasing and high-energy music video mix that’ll get any party going.</desc>
-    <icon src="https://cdn.images.simply.tv/10849896655322647996.jpg" />
+  <programme start="20260525140100 +0000" stop="20260525180100 +0000" channel="192TV.nl">
+    <title lang="nl">Testament van de eighties</title>
+    <desc lang="nl">De gehele dag terug naar de jaren 80 op 192TV!</desc>
+    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
     <rating system="Kijkwijzer">
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520190000 +0000" stop="20260520210000 +0000" channel="Stingray.Lite.TV.nl">
-    <title lang="nl">Hit Parade</title>
-    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
-    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+  <programme start="20260525180100 +0000" stop="20260525220000 +0000" channel="192TV.nl">
+    <title lang="nl">Testament van de eighties</title>
+    <desc lang="nl">De gehele dag terug naar de jaren 80 op 192TV!</desc>
+    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
     <rating system="Kijkwijzer">
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20260520210000 +0000" stop="20260521010000 +0000" channel="Stingray.Lite.TV.nl">
-    <title lang="nl">Hit Parade</title>
-    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
-    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
-    <rating system="Kijkwijzer">
-      <value>AL</value>
-    </rating>
-  </programme>
-  <programme start="20260521010000 +0000" stop="20260521030000 +0000" channel="Stingray.Lite.TV.nl">
-    <title lang="nl">Hit Parade</title>
-    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
-    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+  <programme start="20260525220000 +0000" stop="20260526020000 +0000" channel="192TV.nl">
+    <title lang="nl">Nachtklup</title>
+    <desc lang="nl">De beste gouwe ouwe clips die 192TV in de aanbieding heeft om de nacht in te gaan. Beatles, Stones, Alice Cooper, Abba, Bee Gees, alleen de grootste hits komen voorbij! Gaan we slapen of zullen we toch even de volgende clip afwachten….</desc>
+    <icon src="https://cdn.images.simply.tv/13708032424512423466.jpg" />
     <rating system="Kijkwijzer">
       <value>AL</value>
     </rating>
@@ -1402,6 +1285,70 @@
     </rating>
   </programme>
   <programme start="20260524210000 +0000" stop="20260525010000 +0000" channel="Stingray.Lite.TV.nl">
+    <title lang="nl">Hit Parade</title>
+    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
+    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+    <rating system="Kijkwijzer">
+      <value>AL</value>
+    </rating>
+  </programme>
+  <programme start="20260525010000 +0000" stop="20260525030000 +0000" channel="Stingray.Lite.TV.nl">
+    <title lang="nl">Hit Parade</title>
+    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
+    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+    <rating system="Kijkwijzer">
+      <value>AL</value>
+    </rating>
+  </programme>
+  <programme start="20260525030000 +0000" stop="20260525070000 +0000" channel="Stingray.Lite.TV.nl">
+    <title lang="nl">Light Up Your Day</title>
+    <desc lang="nl">Start the day off right with feel-good pop music videos that are mellow but never boring!</desc>
+    <icon src="https://cdn.images.simply.tv/8544835197048659714.jpg" />
+    <rating system="Kijkwijzer">
+      <value>AL</value>
+    </rating>
+  </programme>
+  <programme start="20260525070000 +0000" stop="20260525110000 +0000" channel="Stingray.Lite.TV.nl">
+    <title lang="nl">Hit Parade</title>
+    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
+    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+    <rating system="Kijkwijzer">
+      <value>AL</value>
+    </rating>
+  </programme>
+  <programme start="20260525110000 +0000" stop="20260525130000 +0000" channel="Stingray.Lite.TV.nl">
+    <title lang="nl">Hit Parade</title>
+    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
+    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+    <rating system="Kijkwijzer">
+      <value>AL</value>
+    </rating>
+  </programme>
+  <programme start="20260525130000 +0000" stop="20260525160000 +0000" channel="Stingray.Lite.TV.nl">
+    <title lang="nl">Hit Parade</title>
+    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
+    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+    <rating system="Kijkwijzer">
+      <value>AL</value>
+    </rating>
+  </programme>
+  <programme start="20260525160000 +0000" stop="20260525190000 +0000" channel="Stingray.Lite.TV.nl">
+    <title lang="nl">Party Mix</title>
+    <desc lang="nl">A crowd-pleasing and high-energy music video mix that’ll get any party going.</desc>
+    <icon src="https://cdn.images.simply.tv/10849896655322647996.jpg" />
+    <rating system="Kijkwijzer">
+      <value>AL</value>
+    </rating>
+  </programme>
+  <programme start="20260525190000 +0000" stop="20260525210000 +0000" channel="Stingray.Lite.TV.nl">
+    <title lang="nl">Hit Parade</title>
+    <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
+    <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
+    <rating system="Kijkwijzer">
+      <value>AL</value>
+    </rating>
+  </programme>
+  <programme start="20260525210000 +0000" stop="20260526010000 +0000" channel="Stingray.Lite.TV.nl">
     <title lang="nl">Hit Parade</title>
     <desc lang="nl">Get your fix of videos by today’s pop superstars and chart-toppers of the last 20 years.</desc>
     <icon src="https://cdn.images.simply.tv/12484830286487395359.jpg" />
