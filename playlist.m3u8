@@ -117,9 +117,6 @@ https://vavoo.to/vavoo-iptv/play/84139639718d779a091b
 #EXTINF:-1 tvg-id="La5.it" tvg-name="LA5" tvg-logo="" channel="La5.it" group-title="TV Sat",LA5
 https://vavoo.to/vavoo-iptv/play/14256673753de6371f2c50
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="Rai5.it" tvg-name="RAI 5" tvg-logo="https://logo.huhu.to/logo?c=3249873828.png" channel="Rai5.it" group-title="TV Sat",RAI 5
-https://vavoo.to/vavoo-iptv/play/3249873828c4ad4d2c1d15
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="Rai5.it" tvg-name="RAI 5" tvg-logo="" channel="Rai5.it" group-title="TV Sat",RAI 5
 https://vavoo.to/vavoo-iptv/play/31633805432b7c33717323
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -138,14 +135,8 @@ https://vavoo.to/vavoo-iptv/play/1925964148b9cb23cc2bce
 #EXTINF:-1 tvg-id="RaiPremium.it" tvg-name="RAI PREMIUM" tvg-logo="https://logo.huhu.to/logo?c=2861734300.png" channel="RaiPremium.it" group-title="Cinema",RAI PREMIUM
 https://vavoo.to/vavoo-iptv/play/28617343009ba70ce123ce
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="RaiPremium.it" tvg-name="RAI PREMIUM" tvg-logo="" channel="RaiPremium.it" group-title="Cinema",RAI PREMIUM
-https://vavoo.to/vavoo-iptv/play/282845555296ba7681a581
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="RaiPremium.it" tvg-name="RAI PREMIUM" tvg-logo="https://logo.huhu.to/logo?c=2861734300.png" channel="RaiPremium.it" group-title="TV Sat",RAI PREMIUM
 https://vavoo.to/vavoo-iptv/play/28617343009ba70ce123ce
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="RaiPremium.it" tvg-name="RAI PREMIUM" tvg-logo="" channel="RaiPremium.it" group-title="TV Sat",RAI PREMIUM
-https://vavoo.to/vavoo-iptv/play/282845555296ba7681a581
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="MediasetExtra.it" tvg-name="MEDIASET EXTRA" tvg-logo="https://logo.huhu.to/logo?c=477466531.png" channel="MediasetExtra.it" group-title="Intrattenimento",MEDIASET EXTRA
 https://vavoo.to/vavoo-iptv/play/4774665319f73c392df0e
@@ -528,9 +519,6 @@ https://vavoo.to/vavoo-iptv/play/18209975559b8c5058ae7f
 #EXTINF:-1 tvg-id="SkyCinemaSuspense.it" tvg-name="SKY CINEMA SUSPENSE" tvg-logo="" channel="SkyCinemaSuspense.it" group-title="Cinema",SKY CINEMA SUSPENSE
 https://vavoo.to/vavoo-iptv/play/3060043751014db62f5b06
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="SkyCinemaUno.it" tvg-name="SKY CINEMA UNO" tvg-logo="https://logo.huhu.to/logo?c=2872151911.png" channel="SkyCinemaUno.it" group-title="Cinema",SKY CINEMA UNO
-https://vavoo.to/vavoo-iptv/play/28721519114f66aff68e22
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="SkyCinemaUno.it" tvg-name="SKY CINEMA UNO" tvg-logo="" channel="SkyCinemaUno.it" group-title="Cinema",SKY CINEMA UNO
 https://vavoo.to/vavoo-iptv/play/17596257388e83c18bb676
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -669,9 +657,6 @@ https://vavoo.to/vavoo-iptv/play/530658045774685c88ed8
 #EXTINF:-1 tvg-id="PRIMA TV" tvg-name="PRIMA TV" tvg-logo="" channel="PRIMA TV" group-title="Other",PRIMA TV
 https://vavoo.to/vavoo-iptv/play/91764224e4ebfa90eace
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="DISNEY FILM" tvg-name="DISNEY FILM" tvg-logo="https://logo.huhu.to/logo?c=1264775727.png" channel="DISNEY FILM" group-title="Cinema",DISNEY FILM
-https://vavoo.to/vavoo-iptv/play/1264775727d4145aa36927
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="Mediaset27Twentyseven.it" tvg-name="TWENTYSEVEN" tvg-logo="" channel="Mediaset27Twentyseven.it" group-title="Cinema",TWENTYSEVEN
 https://vavoo.to/vavoo-iptv/play/6087746837741766a74b3
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -686,12 +671,6 @@ https://vavoo.to/vavoo-iptv/play/1692155417ce364b21d0ca
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="CacciaPesca.it" tvg-name="CACCIA E PESCA" tvg-logo="https://logo.huhu.to/logo?c=3639213638.png" channel="CacciaPesca.it" group-title="Documentary",CACCIA E PESCA
 https://vavoo.to/vavoo-iptv/play/3639213638a7c6a2cc326e
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="DiscoveryChannel.it" tvg-name="DISCOVERY CHANNEL" tvg-logo="https://logo.huhu.to/logo?c=1955739367.png" channel="DiscoveryChannel.it" group-title="Documentary",DISCOVERY CHANNEL
-https://vavoo.to/vavoo-iptv/play/1955739367e1de6e90adc1
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="DiscoveryChannel.it" tvg-name="DISCOVERY CHANNEL" tvg-logo="" channel="DiscoveryChannel.it" group-title="Documentary",DISCOVERY CHANNEL
-https://vavoo.to/vavoo-iptv/play/355484191439d5194fc358
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="DiscoveryScience.it" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://logo.huhu.to/logo?c=528430841.png" channel="DiscoveryScience.it" group-title="Documentary",DISCOVERY SCIENCE
 https://vavoo.to/vavoo-iptv/play/5284308415938593b2e15
@@ -740,9 +719,6 @@ https://vavoo.to/vavoo-iptv/play/1744435623b422a758373c
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="CartoonNetwork.it" tvg-name="CARTOON NETWORK" tvg-logo="" channel="CartoonNetwork.it" group-title="Kids",CARTOON NETWORK
 https://vavoo.to/vavoo-iptv/play/1289777017c50e3cf3fd74
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="DISNEY FILM" tvg-name="DISNEY FILM" tvg-logo="https://logo.huhu.to/logo?c=1264775727.png" channel="DISNEY FILM" group-title="Kids",DISNEY FILM
-https://vavoo.to/vavoo-iptv/play/1264775727d4145aa36927
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="IUNIOR TV" tvg-name="IUNIOR TV" tvg-logo="https://logo.huhu.to/logo?c=803540254.png" channel="IUNIOR TV" group-title="Kids",IUNIOR TV
 https://vavoo.to/vavoo-iptv/play/803540254d5a6317673b3
@@ -837,9 +813,6 @@ https://vavoo.to/vavoo-iptv/play/4031388312f5ebcfc7dc6d
 #EXTINF:-1 tvg-id="RDS SOCIAL TV" tvg-name="RDS SOCIAL TV" tvg-logo="https://logo.huhu.to/logo?c=3656080408.png" channel="RDS SOCIAL TV" group-title="Music",RDS SOCIAL TV
 https://vavoo.to/vavoo-iptv/play/36560804080912cdf76cbf
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="RMC 101" tvg-name="RMC 101" tvg-logo="https://logo.huhu.to/logo?c=2209352147.png" channel="RMC 101" group-title="Music",RMC 101
-https://vavoo.to/vavoo-iptv/play/2209352147379c000ac415
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="VH1" tvg-name="VH1" tvg-logo="https://logo.huhu.to/logo?c=2237660301.png" channel="VH1" group-title="Music",VH1
 https://vavoo.to/vavoo-iptv/play/22376603018e09f8150d84
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -875,9 +848,6 @@ https://vavoo.to/vavoo-iptv/play/3701871205057c15adedda
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="A3" tvg-name="A3" tvg-logo="https://logo.huhu.to/logo?c=445158856.png" channel="A3" group-title="Other",A3
 https://vavoo.to/vavoo-iptv/play/445158856541438cd842a
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="ALTO ADIGE TV" tvg-name="ALTO ADIGE TV" tvg-logo="https://logo.huhu.to/logo?c=68845853.png" channel="ALTO ADIGE TV" group-title="Other",ALTO ADIGE TV
-https://vavoo.to/vavoo-iptv/play/68845853044f9c95e43e
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="ANTENNA 2" tvg-name="ANTENNA 2" tvg-logo="https://logo.huhu.to/logo?c=3014001260.png" channel="ANTENNA 2" group-title="Other",ANTENNA 2
 https://vavoo.to/vavoo-iptv/play/30140012609b4bf5e8d3b7
@@ -1310,9 +1280,6 @@ https://vavoo.to/vavoo-iptv/play/312451299385241b4e7078
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="SPORT ITALIA SOLO CALCIO" tvg-name="SPORT ITALIA SOLO CALCIO" tvg-logo="" channel="SPORT ITALIA SOLO CALCIO" group-title="Sport",SPORT ITALIA SOLO CALCIO
 https://vavoo.to/vavoo-iptv/play/83094948658201829f87a
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="Sportitalia.it" tvg-name="SPORTITALIA" tvg-logo="" channel="Sportitalia.it" group-title="Sport",SPORTITALIA
-https://vavoo.to/vavoo-iptv/play/288173992763b00e6fdc82
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="Sportitalia.it" tvg-name="SPORTITALIA" tvg-logo="https://logo.huhu.to/logo?c=3342849313.png" channel="Sportitalia.it" group-title="Sport",SPORTITALIA
 https://vavoo.to/vavoo-iptv/play/33428493134b007f2ed197
