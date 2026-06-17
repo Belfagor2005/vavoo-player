@@ -1,673 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
 
-<tv source-info-url="http://viva-russia.ru" source-info-name="EPG Viva russia" generator-info-name="EPG viva russia generator" generator-info-url="http://www.xmltv.org/" generator-info-date="2026-06-15 11:00:05" source-info-logo="http://viva-russia.ru/scheduler/epg/channel-logo.jpg">
+<tv source-info-url="http://viva-russia.ru" source-info-name="EPG Viva russia" generator-info-name="EPG viva russia generator" generator-info-url="http://www.xmltv.org/" generator-info-date="2026-06-16 11:00:05" source-info-logo="http://viva-russia.ru/scheduler/epg/channel-logo.jpg">
   <channel id="VIVARussia.ru">
     <display-name>VIVA TV RUSSIA</display-name>
     <display-name>VIVA RUSSIA</display-name>
     <display-name>VIVA TV</display-name>
     <icon src="http://viva-russia.ru/scheduler/epg/channel-logo.jpg" />
   </channel>
-  <programme start="20260608000000 +0300" stop="20260608005959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608010000 +0300" stop="20260608035959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608040000 +0300" stop="20260608055959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608060000 +0300" stop="20260608085959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608090000 +0300" stop="20260608105959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608110000 +0300" stop="20260608115959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608120000 +0300" stop="20260608125959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 90`s (16+)</title>
-    <desc lang="en">Hits of 1990-1999</desc>
-    <desc lang="ru">Хиты 1990-1999</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608130000 +0300" stop="20260608135959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608140000 +0300" stop="20260608145959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608150000 +0300" stop="20260608165959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608170000 +0300" stop="20260608175959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608180000 +0300" stop="20260608185959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608190000 +0300" stop="20260608192959 +0300" channel="VIVARussia.ru">
-    <title lang="en">FRESH (16+)</title>
-    <desc lang="en">New clips of the week and new clips in the rotation of the channel</desc>
-    <desc lang="ru">Новинки недели и новые клипы в ротации канала</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608193000 +0300" stop="20260608195959 +0300" channel="VIVARussia.ru">
-    <title lang="en">#VJFOCUS VIDEOMIX (16+)</title>
-    <desc lang="en">VJFocus VideoMix</desc>
-    <desc lang="ru">Видеомикс от VJFocus</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608200000 +0300" stop="20260608205959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608210000 +0300" stop="20260608215959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260608220000 +0300" stop="20260608235959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260608</date>
-  </programme>
-  <programme start="20260609000000 +0300" stop="20260609005959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609010000 +0300" stop="20260609035959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609040000 +0300" stop="20260609055959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609060000 +0300" stop="20260609085959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609090000 +0300" stop="20260609105959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609110000 +0300" stop="20260609115959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609120000 +0300" stop="20260609125959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 90`s (16+)</title>
-    <desc lang="en">Hits of 1990-1999</desc>
-    <desc lang="ru">Хиты 1990-1999</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609130000 +0300" stop="20260609135959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609140000 +0300" stop="20260609145959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609150000 +0300" stop="20260609165959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609170000 +0300" stop="20260609175959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609180000 +0300" stop="20260609185959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609190000 +0300" stop="20260609192959 +0300" channel="VIVARussia.ru">
-    <title lang="en">TIP TOP CHART (16+)</title>
-    <desc lang="en">Chart by watchers voices</desc>
-    <desc lang="ru">Чарт на основе зрительских симпатий</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609193000 +0300" stop="20260609195959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 90`s (16+)</title>
-    <desc lang="en">Hits of 1990-1999</desc>
-    <desc lang="ru">Хиты 1990-1999</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609200000 +0300" stop="20260609205959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609210000 +0300" stop="20260609215959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260609220000 +0300" stop="20260609235959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260609</date>
-  </programme>
-  <programme start="20260610000000 +0300" stop="20260610005959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610010000 +0300" stop="20260610035959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610040000 +0300" stop="20260610055959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610060000 +0300" stop="20260610085959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610090000 +0300" stop="20260610105959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610110000 +0300" stop="20260610115959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610120000 +0300" stop="20260610125959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 90`s (16+)</title>
-    <desc lang="en">Hits of 1990-1999</desc>
-    <desc lang="ru">Хиты 1990-1999</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610130000 +0300" stop="20260610135959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610140000 +0300" stop="20260610145959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610150000 +0300" stop="20260610165959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610170000 +0300" stop="20260610175959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610180000 +0300" stop="20260610185959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610190000 +0300" stop="20260610195959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 90`s (16+)</title>
-    <desc lang="en">Hits of 1990-1999</desc>
-    <desc lang="ru">Хиты 1990-1999</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610200000 +0300" stop="20260610205959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610210000 +0300" stop="20260610215959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260610220000 +0300" stop="20260610235959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260610</date>
-  </programme>
-  <programme start="20260611000000 +0300" stop="20260611005959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611010000 +0300" stop="20260611035959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611040000 +0300" stop="20260611055959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611060000 +0300" stop="20260611085959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611090000 +0300" stop="20260611105959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611110000 +0300" stop="20260611115959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611120000 +0300" stop="20260611125959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 90`s (16+)</title>
-    <desc lang="en">Hits of 1990-1999</desc>
-    <desc lang="ru">Хиты 1990-1999</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611130000 +0300" stop="20260611135959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611140000 +0300" stop="20260611145959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611150000 +0300" stop="20260611165959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611170000 +0300" stop="20260611175959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611180000 +0300" stop="20260611185959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611190000 +0300" stop="20260611195959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 90`s (16+)</title>
-    <desc lang="en">Hits of 1990-1999</desc>
-    <desc lang="ru">Хиты 1990-1999</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611200000 +0300" stop="20260611205959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611210000 +0300" stop="20260611215959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260611220000 +0300" stop="20260611235959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260611</date>
-  </programme>
-  <programme start="20260612000000 +0300" stop="20260612005959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612010000 +0300" stop="20260612035959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612040000 +0300" stop="20260612055959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612060000 +0300" stop="20260612085959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612090000 +0300" stop="20260612105959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612110000 +0300" stop="20260612115959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612120000 +0300" stop="20260612125959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 90`s (16+)</title>
-    <desc lang="en">Hits of 1990-1999</desc>
-    <desc lang="ru">Хиты 1990-1999</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612130000 +0300" stop="20260612135959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612140000 +0300" stop="20260612145959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612150000 +0300" stop="20260612165959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612170000 +0300" stop="20260612175959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612180000 +0300" stop="20260612185959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 00`s (16+)</title>
-    <desc lang="en">Hits of 2000-2010</desc>
-    <desc lang="ru">Хиты 2000-2010</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612190000 +0300" stop="20260612192959 +0300" channel="VIVARussia.ru">
-    <title lang="en">LOS 90`s (16+)</title>
-    <desc lang="en">Hits of 1990-1999</desc>
-    <desc lang="ru">Хиты 1990-1999</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612193000 +0300" stop="20260612195959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PERSONALITY (16+)</title>
-    <desc lang="en">Watch all the best videos from one artist in one block</desc>
-    <desc lang="ru">Смотри все лучшие клипы одного исполителя в одном блоке</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612200000 +0300" stop="20260612205959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612210000 +0300" stop="20260612215959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260612220000 +0300" stop="20260612235959 +0300" channel="VIVARussia.ru">
-    <title lang="en">PLANET VIVA (16+)</title>
-    <desc lang="en">Hits of last half of year</desc>
-    <desc lang="ru">Хиты последнего полугодия</desc>
-    <date>20260612</date>
-  </programme>
-  <programme start="20260613000000 +0300" stop="20260613002959 +0300" channel="VIVARussia.ru">
-    <title lang="en">TOP 10 (16+)</title>
-    <desc lang="en">Top ten clips voted by viewers</desc>
-    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613003000 +0300" stop="20260613085959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613090000 +0300" stop="20260613092959 +0300" channel="VIVARussia.ru">
-    <title lang="en">TOP 10 (16+)</title>
-    <desc lang="en">Top ten clips voted by viewers</desc>
-    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613093000 +0300" stop="20260613105959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613110000 +0300" stop="20260613115959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613120000 +0300" stop="20260613145959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613150000 +0300" stop="20260613152959 +0300" channel="VIVARussia.ru">
-    <title lang="en">TOP 10 (16+)</title>
-    <desc lang="en">Top ten clips voted by viewers</desc>
-    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613153000 +0300" stop="20260613195959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613200000 +0300" stop="20260613202959 +0300" channel="VIVARussia.ru">
-    <title lang="en">TOP 10 (16+)</title>
-    <desc lang="en">Top ten clips voted by viewers</desc>
-    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613203000 +0300" stop="20260613205959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613210000 +0300" stop="20260613215959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613220000 +0300" stop="20260613224459 +0300" channel="VIVARussia.ru">
-    <title lang="en">CLUB ROTATION (16+)</title>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260613224500 +0300" stop="20260613235959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260613</date>
-  </programme>
-  <programme start="20260614000000 +0300" stop="20260614085959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614090000 +0300" stop="20260614092959 +0300" channel="VIVARussia.ru">
-    <title lang="en">TOP 10 (16+)</title>
-    <desc lang="en">Top ten clips voted by viewers</desc>
-    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614093000 +0300" stop="20260614095959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614100000 +0300" stop="20260614104459 +0300" channel="VIVARussia.ru">
-    <title lang="en">CLUB ROTATION (16+)</title>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614104500 +0300" stop="20260614105959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614110000 +0300" stop="20260614115959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614120000 +0300" stop="20260614145959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614150000 +0300" stop="20260614152959 +0300" channel="VIVARussia.ru">
-    <title lang="en">TOP 10 (16+)</title>
-    <desc lang="en">Top ten clips voted by viewers</desc>
-    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614153000 +0300" stop="20260614195959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614200000 +0300" stop="20260614204459 +0300" channel="VIVARussia.ru">
-    <title lang="en">CLUB ROTATION (16+)</title>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614204500 +0300" stop="20260614205959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614210000 +0300" stop="20260614215959 +0300" channel="VIVARussia.ru">
-    <title lang="en">YOU DECIDE (16+)</title>
-    <desc lang="en">Clips ordered by viewers</desc>
-    <desc lang="ru">Клипы, выбранные зрителями</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614220000 +0300" stop="20260614222959 +0300" channel="VIVARussia.ru">
-    <title lang="en">TIP TOP CHART (16+)</title>
-    <desc lang="en">Chart by watchers voices</desc>
-    <desc lang="ru">Чарт на основе зрительских симпатий</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614223000 +0300" stop="20260614225959 +0300" channel="VIVARussia.ru">
-    <title lang="en">V HITS (16+)</title>
-    <desc lang="en">A whole hit of hour-long music videos of all time</desc>
-    <desc lang="ru">Целый час хитовых музыкальных видеоклипов всех времён</desc>
-    <date>20260614</date>
-  </programme>
-  <programme start="20260614230000 +0300" stop="20260614235959 +0300" channel="VIVARussia.ru">
-    <title lang="en">NON STOP (16+)</title>
-    <desc lang="en">Hits of all time without stopping</desc>
-    <desc lang="ru">Хиты всех времён без остановки</desc>
-    <date>20260614</date>
-  </programme>
   <programme start="20260615000000 +0300" stop="20260615005959 +0300" channel="VIVARussia.ru">
     <title lang="en">LOS 00`s (16+)</title>
     <desc lang="en">Hits of 2000-2010</desc>
@@ -1327,5 +667,665 @@
     <desc lang="en">Hits of all time without stopping</desc>
     <desc lang="ru">Хиты всех времён без остановки</desc>
     <date>20260621</date>
+  </programme>
+  <programme start="20260622000000 +0300" stop="20260622005959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622010000 +0300" stop="20260622035959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622040000 +0300" stop="20260622055959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622060000 +0300" stop="20260622085959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622090000 +0300" stop="20260622105959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622110000 +0300" stop="20260622115959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622120000 +0300" stop="20260622125959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 90`s (16+)</title>
+    <desc lang="en">Hits of 1990-1999</desc>
+    <desc lang="ru">Хиты 1990-1999</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622130000 +0300" stop="20260622135959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622140000 +0300" stop="20260622145959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622150000 +0300" stop="20260622165959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622170000 +0300" stop="20260622175959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622180000 +0300" stop="20260622185959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622190000 +0300" stop="20260622192959 +0300" channel="VIVARussia.ru">
+    <title lang="en">FRESH (16+)</title>
+    <desc lang="en">New clips of the week and new clips in the rotation of the channel</desc>
+    <desc lang="ru">Новинки недели и новые клипы в ротации канала</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622193000 +0300" stop="20260622195959 +0300" channel="VIVARussia.ru">
+    <title lang="en">#VJFOCUS VIDEOMIX (16+)</title>
+    <desc lang="en">VJFocus VideoMix</desc>
+    <desc lang="ru">Видеомикс от VJFocus</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622200000 +0300" stop="20260622205959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622210000 +0300" stop="20260622215959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260622220000 +0300" stop="20260622235959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260622</date>
+  </programme>
+  <programme start="20260623000000 +0300" stop="20260623005959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623010000 +0300" stop="20260623035959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623040000 +0300" stop="20260623055959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623060000 +0300" stop="20260623085959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623090000 +0300" stop="20260623105959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623110000 +0300" stop="20260623115959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623120000 +0300" stop="20260623125959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 90`s (16+)</title>
+    <desc lang="en">Hits of 1990-1999</desc>
+    <desc lang="ru">Хиты 1990-1999</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623130000 +0300" stop="20260623135959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623140000 +0300" stop="20260623145959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623150000 +0300" stop="20260623165959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623170000 +0300" stop="20260623175959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623180000 +0300" stop="20260623185959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623190000 +0300" stop="20260623192959 +0300" channel="VIVARussia.ru">
+    <title lang="en">TIP TOP CHART (16+)</title>
+    <desc lang="en">Chart by watchers voices</desc>
+    <desc lang="ru">Чарт на основе зрительских симпатий</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623193000 +0300" stop="20260623195959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 90`s (16+)</title>
+    <desc lang="en">Hits of 1990-1999</desc>
+    <desc lang="ru">Хиты 1990-1999</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623200000 +0300" stop="20260623205959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623210000 +0300" stop="20260623215959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260623220000 +0300" stop="20260623235959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260623</date>
+  </programme>
+  <programme start="20260624000000 +0300" stop="20260624005959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624010000 +0300" stop="20260624035959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624040000 +0300" stop="20260624055959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624060000 +0300" stop="20260624085959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624090000 +0300" stop="20260624105959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624110000 +0300" stop="20260624115959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624120000 +0300" stop="20260624125959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 90`s (16+)</title>
+    <desc lang="en">Hits of 1990-1999</desc>
+    <desc lang="ru">Хиты 1990-1999</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624130000 +0300" stop="20260624135959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624140000 +0300" stop="20260624145959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624150000 +0300" stop="20260624165959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624170000 +0300" stop="20260624175959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624180000 +0300" stop="20260624185959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624190000 +0300" stop="20260624195959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 90`s (16+)</title>
+    <desc lang="en">Hits of 1990-1999</desc>
+    <desc lang="ru">Хиты 1990-1999</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624200000 +0300" stop="20260624205959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624210000 +0300" stop="20260624215959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260624220000 +0300" stop="20260624235959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260624</date>
+  </programme>
+  <programme start="20260625000000 +0300" stop="20260625005959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625010000 +0300" stop="20260625035959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625040000 +0300" stop="20260625055959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625060000 +0300" stop="20260625085959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625090000 +0300" stop="20260625105959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625110000 +0300" stop="20260625115959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625120000 +0300" stop="20260625125959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 90`s (16+)</title>
+    <desc lang="en">Hits of 1990-1999</desc>
+    <desc lang="ru">Хиты 1990-1999</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625130000 +0300" stop="20260625135959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625140000 +0300" stop="20260625145959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625150000 +0300" stop="20260625165959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625170000 +0300" stop="20260625175959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625180000 +0300" stop="20260625185959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625190000 +0300" stop="20260625195959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 90`s (16+)</title>
+    <desc lang="en">Hits of 1990-1999</desc>
+    <desc lang="ru">Хиты 1990-1999</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625200000 +0300" stop="20260625205959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625210000 +0300" stop="20260625215959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260625220000 +0300" stop="20260625235959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260625</date>
+  </programme>
+  <programme start="20260626000000 +0300" stop="20260626005959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626010000 +0300" stop="20260626035959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626040000 +0300" stop="20260626055959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626060000 +0300" stop="20260626085959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626090000 +0300" stop="20260626105959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626110000 +0300" stop="20260626115959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626120000 +0300" stop="20260626125959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 90`s (16+)</title>
+    <desc lang="en">Hits of 1990-1999</desc>
+    <desc lang="ru">Хиты 1990-1999</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626130000 +0300" stop="20260626135959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626140000 +0300" stop="20260626145959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626150000 +0300" stop="20260626165959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626170000 +0300" stop="20260626175959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626180000 +0300" stop="20260626185959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 00`s (16+)</title>
+    <desc lang="en">Hits of 2000-2010</desc>
+    <desc lang="ru">Хиты 2000-2010</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626190000 +0300" stop="20260626192959 +0300" channel="VIVARussia.ru">
+    <title lang="en">LOS 90`s (16+)</title>
+    <desc lang="en">Hits of 1990-1999</desc>
+    <desc lang="ru">Хиты 1990-1999</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626193000 +0300" stop="20260626195959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PERSONALITY (16+)</title>
+    <desc lang="en">Watch all the best videos from one artist in one block</desc>
+    <desc lang="ru">Смотри все лучшие клипы одного исполителя в одном блоке</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626200000 +0300" stop="20260626205959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626210000 +0300" stop="20260626215959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260626220000 +0300" stop="20260626235959 +0300" channel="VIVARussia.ru">
+    <title lang="en">PLANET VIVA (16+)</title>
+    <desc lang="en">Hits of last half of year</desc>
+    <desc lang="ru">Хиты последнего полугодия</desc>
+    <date>20260626</date>
+  </programme>
+  <programme start="20260627000000 +0300" stop="20260627002959 +0300" channel="VIVARussia.ru">
+    <title lang="en">TOP 10 (16+)</title>
+    <desc lang="en">Top ten clips voted by viewers</desc>
+    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627003000 +0300" stop="20260627085959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627090000 +0300" stop="20260627092959 +0300" channel="VIVARussia.ru">
+    <title lang="en">TOP 10 (16+)</title>
+    <desc lang="en">Top ten clips voted by viewers</desc>
+    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627093000 +0300" stop="20260627105959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627110000 +0300" stop="20260627115959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627120000 +0300" stop="20260627145959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627150000 +0300" stop="20260627152959 +0300" channel="VIVARussia.ru">
+    <title lang="en">TOP 10 (16+)</title>
+    <desc lang="en">Top ten clips voted by viewers</desc>
+    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627153000 +0300" stop="20260627195959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627200000 +0300" stop="20260627202959 +0300" channel="VIVARussia.ru">
+    <title lang="en">TOP 10 (16+)</title>
+    <desc lang="en">Top ten clips voted by viewers</desc>
+    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627203000 +0300" stop="20260627205959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627210000 +0300" stop="20260627215959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627220000 +0300" stop="20260627224459 +0300" channel="VIVARussia.ru">
+    <title lang="en">CLUB ROTATION (16+)</title>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260627224500 +0300" stop="20260627235959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260627</date>
+  </programme>
+  <programme start="20260628000000 +0300" stop="20260628085959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628090000 +0300" stop="20260628092959 +0300" channel="VIVARussia.ru">
+    <title lang="en">TOP 10 (16+)</title>
+    <desc lang="en">Top ten clips voted by viewers</desc>
+    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628093000 +0300" stop="20260628095959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628100000 +0300" stop="20260628104459 +0300" channel="VIVARussia.ru">
+    <title lang="en">CLUB ROTATION (16+)</title>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628104500 +0300" stop="20260628105959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628110000 +0300" stop="20260628115959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628120000 +0300" stop="20260628145959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628150000 +0300" stop="20260628152959 +0300" channel="VIVARussia.ru">
+    <title lang="en">TOP 10 (16+)</title>
+    <desc lang="en">Top ten clips voted by viewers</desc>
+    <desc lang="ru">Десятка лучших клипов, за которую проголосовали зрители</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628153000 +0300" stop="20260628195959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628200000 +0300" stop="20260628204459 +0300" channel="VIVARussia.ru">
+    <title lang="en">CLUB ROTATION (16+)</title>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628204500 +0300" stop="20260628205959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628210000 +0300" stop="20260628215959 +0300" channel="VIVARussia.ru">
+    <title lang="en">YOU DECIDE (16+)</title>
+    <desc lang="en">Clips ordered by viewers</desc>
+    <desc lang="ru">Клипы, выбранные зрителями</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628220000 +0300" stop="20260628222959 +0300" channel="VIVARussia.ru">
+    <title lang="en">TIP TOP CHART (16+)</title>
+    <desc lang="en">Chart by watchers voices</desc>
+    <desc lang="ru">Чарт на основе зрительских симпатий</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628223000 +0300" stop="20260628225959 +0300" channel="VIVARussia.ru">
+    <title lang="en">V HITS (16+)</title>
+    <desc lang="en">A whole hit of hour-long music videos of all time</desc>
+    <desc lang="ru">Целый час хитовых музыкальных видеоклипов всех времён</desc>
+    <date>20260628</date>
+  </programme>
+  <programme start="20260628230000 +0300" stop="20260628235959 +0300" channel="VIVARussia.ru">
+    <title lang="en">NON STOP (16+)</title>
+    <desc lang="en">Hits of all time without stopping</desc>
+    <desc lang="ru">Хиты всех времён без остановки</desc>
+    <date>20260628</date>
   </programme>
 </tv>
