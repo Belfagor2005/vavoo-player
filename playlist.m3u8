@@ -207,8 +207,14 @@ https://vavoo.to/vavoo-iptv/play/22729239721838600694f7
 #EXTINF:-1 tvg-id="RaiNews.it" tvg-name="RAI NEWS 24" tvg-logo="" channel="RaiNews.it" group-title="TV Sat",RAI NEWS 24
 https://vavoo.to/vavoo-iptv/play/2239645272d37ede79369f
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
+#EXTINF:-1 tvg-id="TgCom24.it" tvg-name="TGCOM24" tvg-logo="" channel="TgCom24.it" group-title="News",TGCOM24
+https://vavoo.to/vavoo-iptv/play/1785098768e3514b1dbecc
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="TgCom24.it" tvg-name="TGCOM24" tvg-logo="https://logo.huhu.to/logo?c=2418148449.png" channel="TgCom24.it" group-title="News",TGCOM24
 https://vavoo.to/vavoo-iptv/play/24181484494b43d448b066
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+#EXTINF:-1 tvg-id="TgCom24.it" tvg-name="TGCOM24" tvg-logo="" channel="TgCom24.it" group-title="TV Sat",TGCOM24
+https://vavoo.to/vavoo-iptv/play/1785098768e3514b1dbecc
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="TgCom24.it" tvg-name="TGCOM24" tvg-logo="https://logo.huhu.to/logo?c=2418148449.png" channel="TgCom24.it" group-title="TV Sat",TGCOM24
 https://vavoo.to/vavoo-iptv/play/24181484494b43d448b066
@@ -816,9 +822,6 @@ https://vavoo.to/vavoo-iptv/play/30279032788f9f7870557e
 #EXTINF:-1 tvg-id="M2O" tvg-name="M2O" tvg-logo="https://logo.huhu.to/logo?c=215827632.png" channel="M2O" group-title="Music",M2O
 https://vavoo.to/vavoo-iptv/play/215827632715f84c8de94
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTINF:-1 tvg-id="MTV.it" tvg-name="MTV" tvg-logo="https://logo.huhu.to/logo?c=3212860676.png" channel="MTV.it" group-title="Music",MTV
-https://vavoo.to/vavoo-iptv/play/3212860676dcc8c28a2be1
-#EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="RADIO CAPITAL" tvg-name="RADIO CAPITAL" tvg-logo="" channel="RADIO CAPITAL" group-title="Music",RADIO CAPITAL
 https://vavoo.to/vavoo-iptv/play/4214417458dc0729ae47d
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -1313,6 +1316,9 @@ https://vavoo.to/vavoo-iptv/play/27917814213e17be842a1b
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="VIDEOSTAR TV" tvg-name="VIDEOSTAR TV" tvg-logo="https://logo.huhu.to/logo?c=2499488584.png" channel="VIDEOSTAR TV" group-title="Other",VIDEOSTAR TV
 https://vavoo.to/vavoo-iptv/play/24994885846c204e8b0b86
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+#EXTINF:-1 tvg-id="VIDEOTOLENTINO" tvg-name="VIDEOTOLENTINO" tvg-logo="https://logo.huhu.to/logo?c=2015312510.png" channel="VIDEOTOLENTINO" group-title="Other",VIDEOTOLENTINO
+https://vavoo.to/vavoo-iptv/play/201531251001a1e9936f4c
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 #EXTINF:-1 tvg-id="YUGIOH ITALY" tvg-name="YUGIOH ITALY" tvg-logo="" channel="YUGIOH ITALY" group-title="Other",YUGIOH ITALY
 https://vavoo.to/vavoo-iptv/play/28498110272b8770fe20cb
